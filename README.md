@@ -46,7 +46,7 @@
 新たにSkillPackを追加してそれに必要な画像や音声ファイルの格納方法は、
 [SkillPack名]のフォルダを用意してその配下に[image]と[sound]フォルダを設置する
 ```bash
-- [SkillPack]
+- [SkillPack名]
 |- image
  |- xxx.png
 |- sound
