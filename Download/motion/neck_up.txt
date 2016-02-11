@@ -1,0 +1,3 @@
+//首上振り
+SERVO 5 +1 RELATIVE
+WAIT 5

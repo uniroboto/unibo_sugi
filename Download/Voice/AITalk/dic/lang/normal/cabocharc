@@ -1,0 +1,50 @@
+#
+# default cabocharc file
+#
+
+# Output Format
+#  0 - tree
+#  1 - lattice
+output-format = 1
+
+# Input Layer
+#  0 - RAW sentence layer (ChaSen only)
+#  1 - POS tagged layer (default)
+#  2 - POS tagged and Chunked layer
+#  3 - POS tagged, Chunked and Feature selected layer
+input-layer = 1
+
+# Output Layer
+#  1 - POS tagged layer (ChaSen only)
+#  2 - Chunked layer
+#  3 - Chunked and Feature selected layer
+#  4 - Parsed layer (default)
+output-layer = 4
+
+# Output NE
+# 0 - no output
+# 1 - output NE with    Chunk Constraint
+# 2 - output NE without Chunk Constraint
+ne = 1
+
+# Parser model file name
+# parser-model  = ../../../xdata/settings/windows/cabocha/model/IPA-dep.model
+#parser-model  = /DB/dbAI/DIC_XI/settings/windows/cabocha/model/IPA-dep-A+P.model
+parser-model  = $(rcpath)/cabocha/model/IPA-dep-A+P.model
+# parser-model  = ../../../xdata/settings/windows/cabocha/model/IPA-small-dep.model
+# parser-model  = ../../../xdata/settings/windows/cabocha/model/IPA-small-dep-A+P.model
+# parser-model  = ../../../xdata/settings/windows/cabocha/model/JUMAN-dep.model
+# parser-model  = ../../../xdata/settings/windows/cabocha/model/JUMAN-small-dep.model
+
+# Chunker model file name
+#chunker-model = /DB/dbAI/DIC_XI/settings/windows/cabocha/model/IPA-chunker.model
+chunker-model = $(rcpath)/cabocha/model/IPA-chunker.model
+# chunker-model = ../../../xdata/settings/windows/cabocha/model/JUMAN-chunker.model
+
+# NE model file name
+ne-model = $(rcpath)/cabocha/model/CRL-IREX-ne.model
+
+morphological-analyzer = chasen
+
+# chasenrc (libchasen must be enabled.)
+#chasenrc = /DB/dbAI/DIC_XI/settings/windows/chasenrc

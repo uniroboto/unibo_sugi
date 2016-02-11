@@ -1,0 +1,18 @@
+#
+# cabochaŠÖ˜A‹@”\‚Ì’è‹`
+#
+
+#
+#[UseCabocha]  server“™ -> "mix" ,android ->"ruleandlinearsand",old method "false","true","ruleandsvm"
+#
+
+[UseCabocha]	ruleandlinearsand
+
+[BoundarySet]
+  ŒW‚èó‚¯        linkplus=1
+  ”ñCü‹«ŠE‚R    linkplus=3..*  lpos=‹L†-“Ç“_ lpos=‹L†-‹å“_
+  ”ñCü‹«ŠE‚R    linkplus=3..*  mcle=10..*
+  ”ñCü‹«ŠE‚R    linkplus=2     lpos=‹L†-“Ç“_ lpos=‹L†-‹å“_
+  ”ñCü‹«ŠE‚Q    linkplus=3..*
+  ”ñCü‹«ŠE‚Q    linkplus=2     mci=10..*
+

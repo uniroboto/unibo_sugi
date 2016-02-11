@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<BoundarySet>
+
+  <Head>
+    <Name> ipadic </Name>
+    <Version> 1.00 </Version>
+  </Head>
+
+
+  <Body>
+
+    <PauseSet>
+      <Pattern name="default">
+	<Boundary name="文境界"       always="true"> 1.0  </Boundary>
+	<Boundary name="節境界"       always="true"> 0.50 </Boundary>
+	<Boundary name="非修飾境界３" always="true"> 0.35  </Boundary>
+	<Boundary name="非修飾境界２" always="interval"> 0.21  </Boundary>
+	<Boundary name="並列読点境界３" always="true"> 0.35  </Boundary>
+	<Boundary name="動詞基本形息継ぎ" always="true"> 0.22  </Boundary>
+	<Boundary name="長休止記号境界" always="true"> 0.33  </Boundary>
+	<Boundary name="短休止記号境界" always="true"> 0.23  </Boundary>
+	<Boundary name="アクセント句境界" always="true"> -0.1  </Boundary>
+	<Boundary name="上書きアクセント句境界" always="true"> -0.1  </Boundary>
+	<Boundary name="PauseCandidate" always="true"> -0.1  </Boundary>
+	<!---<Boundary name="文末休止" always="false"> -0.1  </Boundary> -->
+	<Boundary name="文末休止" always="true"> -0.1  </Boundary>
+	<ToutenPause always="true"> 0.30 </ToutenPause>
+	<IntervalMoras> 15 </IntervalMoras>
+	<IntervalLastMoras> 5 </IntervalLastMoras>
+      </Pattern>
+
+      <Pattern name="often">
+	<Boundary name="文境界"       always="true"> 1.0  </Boundary>
+	<Boundary name="節境界"       always="true"> 0.50 </Boundary>
+	<Boundary name="非修飾境界３" always="true"> 0.35  </Boundary>
+	<Boundary name="非修飾境界２" always="interval"> 0.21  </Boundary>
+	<ToutenPause always="true"> 0.30 </ToutenPause>
+	<IntervalMoras> 10 </IntervalMoras>
+      </Pattern>
+
+      <Pattern name="touten">
+	<ToutenPause always="true"> 0.50 </ToutenPause>
+	<Boundary name="文境界" always="true"> 1.0  </Boundary>
+      </Pattern>
+    </PauseSet>
+
+    <Alias>
+      <PosAlias name="名詞" >
+	<Pos> 接頭詞-*	</Pos>
+
+	<Pos> 名詞-一般		</Pos>
+	<Pos> 名詞-固有名詞-*		</Pos>
+	<Pos> 名詞-代名詞-*		</Pos>
+	<Pos> 名詞-副詞可能		</Pos>
+	<Pos> 名詞-サ変接続		</Pos>
+	<Pos> 名詞-形容動詞語幹	</Pos>
+	<Pos> 名詞-数			</Pos>
+
+	<Pos> 名詞-非自立-一般	</Pos>
+
+	<Pos> 名詞-接尾-*		</Pos>
+      </PosAlias>
+
+      <PosAlias name="自立名詞" >
+	<Pos> 名詞-一般		</Pos>
+	<Pos> 名詞-固有名詞-*		</Pos>
+	<Pos> 名詞-サ変接続		</Pos>
+	<Pos> 名詞-形容動詞語幹	</Pos>
+	<Pos> 名詞-数			</Pos>
+      </PosAlias>
+
+      <PosAlias name="形容動詞">
+	<PosList>
+	  <Pos> 名詞-形容動詞語幹	</Pos>
+	  <Pos base="だ"> 助動詞	</Pos>
+	</PosList>
+	<PosList>
+	  <Pos> 名詞-形容動詞語幹	</Pos>
+	  <Pos base="に"> 助詞-格助詞-一般	</Pos>
+	</PosList>
+      </PosAlias>
+
+      <PosAlias name="句はじまり">
+	<Pos> 接頭詞-*      </Pos>
+	<Pos> 名詞-一般 </Pos>
+	<Pos> 名詞-固有名詞-*	</Pos>
+	<Pos> 名詞-代名詞-*		</Pos>
+	<Pos> 名詞-副詞可能		</Pos>
+	<Pos> 名詞-サ変接続		</Pos>
+	<Pos> 名詞-形容動詞語幹	</Pos>
+	<Pos> 名詞-数 </Pos>
+	<Pos> 名詞-動詞非自立的	</Pos>
+	<Pos> 名詞-引用文字列	</Pos>
+	<Pos> 名詞-ナイ形容詞語幹 </Pos>
+
+	<Pos> 動詞-自立 </Pos>
+	<Pos> 動詞-非自立 </Pos>
+	<Pos> 形容詞-自立 </Pos>
+	<Pos> 形容詞-非自立 </Pos>
+
+	<Pos> 副詞-* 	</Pos>
+	<Pos> 連体詞 </Pos>
+	<Pos> 接続詞 </Pos>
+	<Pos> 感動詞 </Pos>
+      </PosAlias>
+
+      <PosAlias name="句はじまり（動詞）">
+	<Pos> 動詞-自立		</Pos>
+	<Pos> 動詞-非自立		</Pos>
+	<PosList>
+	  <Pos> 名詞-サ変接続		</Pos>
+	  <Pos base="する"> 動詞-自立 </Pos>
+	</PosList>
+      </PosAlias>
+
+      <PosAlias name="句はじまり（形容詞）">
+	<Pos> 形容詞-自立		</Pos>
+	<PosList>
+	  <Pos> 名詞-ナイ形容詞語幹	</Pos>
+	  <Pos base="ない"> 助動詞	</Pos>
+	</PosList>
+      </PosAlias>
+
+      <PosAlias name="句はじまり（形容動詞）">
+	<PosList>
+	  <Pos> 名詞-形容動詞語幹	</Pos>
+	  <Pos base="だ"> 助動詞	</Pos>
+	</PosList>
+	<PosList>
+	  <Pos> 名詞-形容動詞語幹	</Pos>
+	  <Pos base="に"> 助詞-格助詞-一般	</Pos>
+	</PosList>
+      </PosAlias>
+
+
+      <PosAlias name="句はじまり（！動詞）">
+	<Pos> 接頭詞-*		</Pos>
+	<Pos> 名詞-一般 </Pos>
+	<Pos> 名詞-固有名詞-*	</Pos>
+	<Pos> 名詞-代名詞-*		</Pos>
+	<Pos> 名詞-副詞可能		</Pos>
+	<Pos> 名詞-数 </Pos>
+	<PosList>
+	  <Pos> 名詞-サ変接続	</Pos>
+	  <Pos equal="not" base="する"> 動詞-自立 </Pos>
+	</PosList>
+	<Pos> 名詞-動詞非自立的	</Pos>
+	<Pos> 名詞-引用文字列	</Pos>
+	<Pos> 名詞-ナイ形容詞語幹 </Pos>
+
+	<Pos> 副詞-*		 </Pos>
+	<Pos> 連体詞 </Pos>
+	<Pos> 接続詞 </Pos>
+	<Pos> 感動詞 </Pos>
+
+	<Pos> 形容詞-自立 </Pos>
+	<Pos> 形容詞-非自立 </Pos>
+	<Pos> 名詞-形容動詞語幹	</Pos>
+      </PosAlias>
+
+      <PosAlias name="名詞-（自立）">
+	<NextList> <Pos> 名詞-一般  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-固有名詞  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-代名詞  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-副詞可能  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-サ変接続  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-数  </Pos>  </NextList>
+	<NextList> <Pos> 名詞-形容詞語幹  </Pos>  </NextList>
+      </PosAlias>
+
+      <PosAlias name="句はじまり（！動詞・形容詞・形容動詞）">
+	<Pos> 接頭詞-*		</Pos>
+	<Pos> 名詞-一般 </Pos>
+	<Pos> 名詞-固有名詞-*	</Pos>
+	<Pos> 名詞-代名詞-*		 </Pos>
+	<Pos> 名詞-副詞可能 </Pos>
+	<Pos> 名詞-数 </Pos>
+	<PosList>
+	  <Pos> 名詞-サ変接続	</Pos>
+	  <Pos equal="not" base="する"> 動詞-自立 </Pos>
+	</PosList>
+	<Pos> 名詞-動詞非自立的	</Pos>
+	<Pos> 名詞-引用文字列	</Pos>
+	<Pos> 名詞-ナイ形容詞語幹 </Pos>
+
+	<Pos> 副詞-*		</Pos>
+	<Pos> 連体詞 </Pos>
+	<Pos> 接続詞 </Pos>
+	<Pos> 感動詞 </Pos>
+      </PosAlias>
+
+      <PosAlias name="曜日">
+	<Pos base="日曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="月曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="火曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="水曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="木曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="金曜日"> 名詞-副詞可能  </Pos>
+	<Pos base="土曜日"> 名詞-副詞可能  </Pos>
+      </PosAlias>
+
+      <PosAlias name="月名">
+	<Pos base="１月"> 名詞-副詞可能  </Pos>
+	<Pos base="２月"> 名詞-副詞可能  </Pos>
+	<Pos base="３月"> 名詞-副詞可能  </Pos>
+	<Pos base="４月"> 名詞-副詞可能  </Pos>
+	<Pos base="５月"> 名詞-副詞可能  </Pos>
+	<Pos base="６月"> 名詞-副詞可能  </Pos>
+	<Pos base="７月"> 名詞-副詞可能  </Pos>
+	<Pos base="８月"> 名詞-副詞可能  </Pos>
+	<Pos base="９月"> 名詞-副詞可能  </Pos>
+	<Pos base="１０月"> 名詞-副詞可能  </Pos>
+	<Pos base="１１月"> 名詞-副詞可能  </Pos>
+	<Pos base="１２月"> 名詞-副詞可能  </Pos>
+	<Pos base="一月"> 名詞-副詞可能  </Pos>
+	<Pos base="二月"> 名詞-副詞可能  </Pos>
+	<Pos base="三月"> 名詞-副詞可能  </Pos>
+	<Pos base="四月"> 名詞-副詞可能  </Pos>
+	<Pos base="五月"> 名詞-副詞可能  </Pos>
+	<Pos base="六月"> 名詞-副詞可能  </Pos>
+	<Pos base="七月"> 名詞-副詞可能  </Pos>
+	<Pos base="八月"> 名詞-副詞可能  </Pos>
+	<Pos base="九月"> 名詞-副詞可能  </Pos>
+	<Pos base="十月"> 名詞-副詞可能  </Pos>
+	<Pos base="十一月"> 名詞-副詞可能  </Pos>
+	<Pos base="十二月"> 名詞-副詞可能  </Pos>
+      </PosAlias>
+
+      <PosAlias name="名詞３連続">
+	<PosList>
+	  <Pos> 名詞-* </Pos>
+	  <Pos> 名詞-* </Pos>
+	  <Pos> 名詞-* </Pos>
+	</PosList>
+      </PosAlias>
+
+
+    </Alias>
+
+    <List>
+
+
+      <Boundary  name="節境界">
+
+	<Pattern  name="感動節">
+	  <PrevList> <Pos> 感動詞      </Pos> </PrevList>
+	  <Bound> <Pos> 記号-読点   </Pos>   </Bound>
+	</Pattern>
+
+      </Boundary>
+
+
+      <Boundary  name="長休止記号境界">
+
+
+	    <Pattern  name="…">
+	      <Bound> <Pos base="…"> 記号-一般  </Pos>  </Bound>
+	    </Pattern>
+
+	<!--
+	    <Pattern  name="：">
+	      <Bound> <Pos base="："> 記号-一般  </Pos>  </Bound>
+	    </Pattern>
+	    -->
+
+	<!--
+	    <Pattern  name="――">
+	      <Bound> <Pos base="――"> 記号-一般  </Pos>  </Bound>
+	    </Pattern>
+	    -->
+
+      </Boundary>
+
+
+      <Boundary  name="短休止記号境界">
+
+	<Pattern  name="・">
+	  <Bound> <Pos read="・"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+
+	<Pattern  name="／">
+	  <Bound> <Pos base="／"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+
+	<!--
+	<Pattern  name="、">
+	  <Bound> <Pos base="、"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+	-->
+
+	<Pattern  name="接頭詞">
+	  <Bound> <Pos base="同"> 接頭詞-名詞接続  </Pos> </Bound>
+	</Pattern>
+
+
+	<Pattern  name="数＋）">
+	  <PrevList> <Pos> 名詞-数  </Pos> </PrevList>
+	  <Bound> <Pos> 記号-括弧閉 </Pos>  </Bound>
+	</Pattern>
+
+	<Pattern  name="記号-括弧開">
+	  <Bound> <Pos> 記号-括弧開 </Pos>  </Bound>
+	</Pattern>
+
+
+	<Pattern  name="）">
+	  <Bound> <Pos> 記号-括弧閉 </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-数  </Pos> </NextList>
+	  <!-- <NextList> <Pos> 助詞-*  </Pos> </NextList> -->
+	</Pattern>
+
+	<Pattern  name="】">
+	  <Bound> <Pos base="】"> 記号-括弧閉 </Pos>  </Bound>
+	</Pattern>
+
+	
+	<Pattern  name="引用符＋と">
+	  <PrevList> <Pos> 記号-括弧閉 </Pos>  </PrevList>
+	  <Bound> <Pos> 助詞-格助詞-引用  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	  <NextList>
+	    <Pos> 動詞-*  </Pos>
+	    <Pos> 助詞-接続助詞  </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="空白１">
+	  <Bound> <Pos base="　"> 記号-空白  </Pos>  </Bound>
+	</Pattern>
+
+
+<!--
+	<Pattern  name="名詞：名詞">
+	  <PrevList> <Pos> 名詞-* </Pos>  </PrevList>
+	  <Bound> <Pos base="："> 記号-一般  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	</Pattern>
+-->
+
+
+	<Pattern  name="→">
+	  <Bound> <Pos base="→"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+
+	<Pattern  name="―">
+	  <Bound> <Pos base="―"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+
+	<Pattern  name="（笑）">
+	  <Bound> <Pos> * </Pos>  </Bound>
+	  <NextList> <Pos base="（笑）"> 記号-一般  </Pos>  </NextList>
+	</Pattern>
+
+<!--
+	<Pattern  name="＝">
+	  <Bound> <Pos base="＝"> 記号-一般  </Pos>  </Bound>
+	</Pattern>
+-->
+
+	<Pattern  name="＝数">
+	  <Bound> <Pos base="＝"> 記号-一般  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-数  </Pos> </NextList>
+	</Pattern>
+
+
+	<Pattern  name="明日－日付">
+	  <Bound> <Pos base="明日"> 名詞-副詞可能  </Pos>  </Bound>
+	  <NextList> <Pos> 月名  </Pos> </NextList>
+	  <NextList> <Pos> 名詞-数  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="場合－名詞">
+	  <Bound> <Pos base="場合"> 名詞-副詞可能  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="この＋時間＋名詞">
+	  <PrevList> <Pos base="この"> 連体詞 </Pos> </PrevList>
+	  <Bound> <Pos base="時間"> 名詞-副詞可能  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞  </Pos> </NextList>
+	</Pattern>
+
+
+	<Pattern  name="ない－句はじまり">
+	  <Bound> <Pos base="ない"> 形容詞-自立  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos> </NextList>
+	  <NextList> <Pos> 名詞-固有名詞-* </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（動詞） </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（形容詞） </Pos> </NextList>
+	</Pattern>
+
+	<!--
+	<Pattern  name="可能な－句はじまり">
+	  <PrevList> <Pos base="可能" > 名詞-形容動詞語幹  </Pos> </PrevList>
+	  <Bound> <Pos read="ナ"> 助動詞  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos> </NextList>
+	  <NextList> <Pos> 名詞-固有名詞-* </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（動詞） </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（形容詞） </Pos> </NextList>
+	</Pattern>
+	-->
+
+	<!--
+	<Pattern  name="をめぐる－句はじまり">
+	  <PrevList> <Pos base="を"> 助詞-格助詞-一般  </Pos> </PrevList>
+	  <Bound> <Pos read="メグル"> 動詞-自立  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos> </NextList>
+	  <NextList> <Pos> 名詞-固有名詞-* </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（動詞） </Pos> </NextList>
+	  <NextList> <Pos> 句はじまり（形容詞） </Pos> </NextList>
+	</Pattern>
+	-->
+
+	<!--
+	<Pattern  name="こと（助詞省略）＋動詞">
+	  <PrevList>
+	    <Pos> 名詞-* </Pos>
+	    <Pos> 助詞-連体化 </Pos>
+	  </PrevList>
+	  
+	  <Bound> <Pos base="こと"> 名詞-非自立-一般 </Pos> </Bound>
+	  <NextList> <Pos> 動詞-自立 </Pos> </NextList>
+	  <NextList>
+	    <Pos> 名詞-サ変接続 </Pos>
+	    <Pos base="する"> 動詞-自立 </Pos>
+	  </NextList>
+	</Pattern>
+	-->
+
+	<Pattern  name="名詞＋連語＋名詞＋名詞">
+	  <PrevList> <Pos> 名詞-*  </Pos> </PrevList>
+	  <!-- <Bound> <Pos base="によって"> 助詞-格助詞-連語 </Pos>  </Bound> -->
+	  <Bound> <Pos> 助詞-格助詞-連語 </Pos>  </Bound>
+	  <NextList>
+	    <Pos> 名詞-*  </Pos>
+	    <Pos> 名詞-*  </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="動詞－あまり-名詞">
+	  <PrevList> <Pos> 動詞-自立  </Pos> </PrevList>
+	  <Bound> <Pos base="あまり"> 名詞-非自立-副詞可能  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	</Pattern>
+
+
+	<Pattern  name="動詞+悩む">
+	  <Bound> <Pos > 動詞-自立  </Pos> </Bound>
+	  <NextList> <Pos base="悩む"> 動詞-自立  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="する+接続助詞">
+	  <PrevList> <Pos > 動詞-自立  </Pos> </PrevList>
+	  <PrevList> <Pos > 助動詞 </Pos> </PrevList>
+	  <Bound> <Pos base="ものの"> 助詞-接続助詞 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	</Pattern>
+
+
+	<Pattern  name="数詞（年）＋月名＋数詞">
+	  <Bound> <Pos> 名詞-数  </Pos> </Bound>
+	  <NextList>
+	    <Pos> 月名 </Pos>
+	    <Pos> 名詞-数  </Pos>
+	  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="曜日＋数詞（年）">
+	  <Bound> <Pos> 曜日 </Pos> </Bound>
+	  <NextList>
+	    <Pos> 名詞-数  </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="第＋数詞＋に＋名詞">
+	  <PrevList>
+	    <Pos base="第"> 接頭詞-数接続 </Pos>
+	    <Pos> 名詞-数 </Pos>
+	  </PrevList>
+	  <Bound> <Pos base="に"> 助詞-格助詞-一般 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	</Pattern>
+
+      </Boundary>
+
+
+      <Boundary  name="アクセント句境界">
+
+
+	<Pattern  name="名詞-固有名詞-＊">
+	  <!-- <Bound> <Pos> 名詞-固有名詞-地域-国 </Pos> </Bound> -->
+	  <Bound> <Pos> 名詞-固有名詞-組織 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-固有名詞  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-代名詞  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-サ変接続  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-数  </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-形容詞語幹  </Pos>  </NextList>
+	  <!-- <NextList> <Pos> 名詞-（自立） </Pos>  </NextList> -->
+	</Pattern>
+
+	<Pattern  name="名詞-固有名詞-地域-国＋">
+	  <Bound> <Pos> 名詞-固有名詞-地域-国 </Pos> </Bound>
+	  <NextList> <Pos base="本土"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="外相"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="国営"> 名詞-一般  </Pos>  </NextList>
+	  <NextList>
+	    <Pos> 名詞-一般  </Pos>
+	    <Pos> 名詞-一般  </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="接頭詞＋名詞-固有名詞-＊">
+	  <Bound> <Pos> 接頭詞-名詞接続 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-固有名詞-組織 </Pos> </NextList>
+
+	</Pattern>
+
+	<Pattern  name="名詞-固有名詞-一般">
+	  <Bound> <Pos> 名詞-固有名詞-一般 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-サ変接続  </Pos>  </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞-動詞名詞-名詞">
+	  <PrevList> <Pos> 名詞-一般 </Pos>  </PrevList>
+	  <Bound> <Pos base="作成"> 名詞-サ変接続  </Pos>  </Bound>
+	  <Bound> <Pos base="停止"> 名詞-サ変接続  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	</Pattern>
+
+
+	<Pattern  name="名詞＋月名">
+	  <Bound> <Pos> 名詞-*  </Pos> </Bound>
+	  <NextList>
+	    <Pos> 月名 </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞-動詞名詞-助詞">
+	  <Bound> <Pos> 名詞-* </Pos>  </Bound>
+	  <NextList>
+	    <Pos base="作成"> 名詞-サ変接続  </Pos>
+	    <Pos> 助詞-連体化 </Pos>
+	  </NextList>
+	  <NextList>
+	    <Pos> 名詞-一般 </Pos>
+	    <Pos base="化"> 名詞-接尾-サ変接続 </Pos>
+	  </NextList>
+
+	  <NextList> <Pos base="引退"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="開始"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="回復"> 名詞-サ変接続 </Pos>  </NextList>
+	  <NextList> <Pos base="改善"> 名詞-サ変接続 </Pos>  </NextList>
+	  <NextList> <Pos base="拡大"> 名詞-サ変接続 </Pos>  </NextList>
+	  <NextList> <Pos base="獲得"> 名詞-サ変接続 </Pos>  </NextList>
+	  <NextList> <Pos base="加盟"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="開講"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="公認"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="混乱"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="結成"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="高騰"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="再開"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="刷新"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="再開"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="参加"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="執行"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="失敗"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="指導"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="終了"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="修了"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="粛正"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="出場"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="召集"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="所属"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="進出"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="実現"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="成立"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="選出"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="選択"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="全開"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="全壊"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="全快"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="卒業"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="増加"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="代表"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="誕生"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="断念"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="取締"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="停止"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="中止"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="追放"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="独立"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="トライ"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="入学"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="値上げ"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="敗退"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="発足"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="防止"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="反対"> 名詞-サ変接続  </Pos> </NextList>
+	  <!-- <NextList> <Pos base="分離"> 名詞-サ変接続  </Pos> </NextList> -->
+	  <NextList> <Pos base="暴落"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="返還"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="並立"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="無理"> 名詞-形容動詞語幹  </Pos> </NextList>
+	  <NextList> <Pos base="優勝"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="留年"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="連立"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList>
+	    <Pos> 名詞-サ変接続 </Pos>
+	    <Pos base="制度"> 名詞-一般 </Pos>
+	  </NextList>
+
+	</Pattern>
+
+	<Pattern  name="名詞(サ変接続以外)-回復">
+	  <Bound> <Pos> 名詞-* </Pos> </Bound>
+	  <NextList> <Pos base="早々"> 名詞-一般 </Pos>  </NextList>
+	  <NextList> <Pos base="前日"> 名詞-副詞可能 </Pos>  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="名詞＋関連+名詞">
+	  <Bound> <Pos> 名詞-* </Pos>  </Bound>
+	  <NextList>
+	    <Pos base="関連"> 名詞-サ変接続  </Pos>
+	    <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	    <NextList> <Pos> 接頭詞-名詞接続  </Pos> </NextList>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="同じ-名詞（先のパターンと重複がある）">
+	  <Bound> <Pos base="同じ"> 名詞-形容動詞語幹  </Pos> </Bound>
+	  <Bound> <Pos base="新党"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-サ変接続 </Pos>  </NextList>
+	</Pattern>
+
+	<Pattern  name="*-決勝">
+	  <Bound> <Pos> 名詞-* </Pos>  </Bound>
+	  <NextList> <Pos base="決勝"> 名詞-一般  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="数詞-先">
+	  <Bound> <Pos> 名詞-数  </Pos> </Bound>
+	  <NextList> <Pos base="先"> 名詞-接尾-一般 </Pos>  </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞(数詞)-名詞">
+	  <Bound> <Pos base="一つ"> 名詞-一般 </Pos> </Bound>
+	  <Bound> <Pos base="１つ"> 名詞-一般 </Pos> </Bound>
+	  <Bound> <Pos base="ひとつ"> 名詞-一般 </Pos> </Bound>
+	  <Bound> <Pos base="二つ"> 名詞-一般 </Pos> </Bound>
+	  <Bound> <Pos base="２つ"> 名詞-一般 </Pos> </Bound>
+	  <Bound> <Pos base="ふたつ"> 名詞-一般 </Pos> </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos>  </NextList>
+	</Pattern>
+
+	<Pattern  name="範囲-名詞">
+	  <Bound> <Pos base="全国"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="県下"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="県"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="役場"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="庁舎"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="小学校"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="中学校"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="高校"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="全面"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="原則"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="次期"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="皆様"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="十分"> 名詞-形容動詞語幹  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-副詞可能 </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-サ変接続 </Pos>  </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞-程度">
+	  <Bound> <Pos> 名詞-一般 </Pos>  </Bound>
+	  <Bound> <Pos> 名詞-サ変接続 </Pos>  </Bound>
+	  <Bound> <Pos> 名詞-固有名詞-* </Pos>  </Bound>
+	  <Bound> <Pos> 名詞-名詞-形容動詞語幹 </Pos>  </Bound>
+	  <NextList> <Pos base="全体"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="全て"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="すべて"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="全般"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="全般"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="全般"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="半ば"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="全域"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="全員"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="一部リーグ"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="一斉"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="いっぱい"> 名詞-一般  </Pos>  </NextList>
+	  <!--  <NextList> <Pos base="いっぱい"> 名詞-接尾-副詞可能  </Pos>  </NextList> -->
+	  <NextList> <Pos base="確実"> 名詞-形容動詞語幹  </Pos> </NextList>
+	  <NextList> <Pos base="ぎりぎり"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="最初"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="最後"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="最長"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="最短"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="多数"> 名詞-副詞可能  </Pos>  </NextList>
+	  <NextList> <Pos base="特有"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="中心"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="同様"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="真ん中"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="豊富"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="豊か"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="過剰"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="充分"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="有名"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="可能"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不可能"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不能"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不明"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="危険"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="急激"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="個別"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="公式"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不要"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="良好"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="柔軟"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="果敢"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="安定"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不安定"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="多様"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不利"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="有利"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="剛健"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="周到"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="独特"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="特別"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="独自"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="特殊"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="ナンバーワン"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="普通"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="健康"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="元気"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="便利"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="優秀"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="優勢"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="優位"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="満点"> 名詞-一般  </Pos>  </NextList>
+	  <NextList> <Pos base="明晰"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="有効"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="無効"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="不審"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="得意"> 名詞-形容動詞語幹  </Pos>  </NextList>
+	  <NextList> <Pos base="旺盛"> 名詞-形容動詞語幹  </Pos> </NextList>
+	  <NextList> <Pos base="平等"> 名詞-形容動詞語幹  </Pos> </NextList>
+	  <NextList> <Pos base="低め"> 名詞-一般  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞-一切">
+	  <Bound> <Pos> 名詞-* </Pos>  </Bound>
+	  <NextList> <Pos base="一切"> 名詞-副詞可能 </Pos>  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="元通り-名詞">
+	  <Bound> <Pos base="元通り"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="もと通り"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="もとどおり"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-一般 </Pos>  </NextList>
+	  <NextList> <Pos> 名詞-サ変接続 </Pos>  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="さ-ばかり">
+	  <Bound> <Pos> 名詞-接尾-特殊  </Pos> </Bound>
+	  <Bound> <Pos read="ホン"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos read="ブン"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos base="ばかり"> 助詞-副助詞 </Pos>  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="文末の助詞">
+	  <Bound> <Pos> 助動詞  </Pos> </Bound>
+	  <NextList>
+	    <Pos base="だけ"> 助詞-副助詞 </Pos>
+	    <Pos > 記号-句点 </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="地域名-東西南北">
+	  <Bound> <Pos> 名詞-固有名詞-地域-一般</Pos>  </Bound>
+	  <Bound> <Pos> 名詞-接尾-地域</Pos>  </Bound>
+	  <NextList> <Pos base="東"> 名詞-固有名詞-地域-一般  </Pos> </NextList>
+	  <NextList> <Pos base="西"> 名詞-固有名詞-地域-一般  </Pos> </NextList>
+	  <NextList> <Pos base="南"> 名詞-固有名詞-地域-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北"> 名詞-固有名詞-地域-一般  </Pos> </NextList>
+	  <NextList> <Pos base="東"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="西"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="南"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北東"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="東北"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北西"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="西北"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="南西"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="西南"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="南東"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="東南"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北部"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="南部"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="東部"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="西部"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="北西部"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="中央"> 名詞-一般  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="地域名-付属語">
+	  <Bound> <Pos> 名詞-固有名詞-地域-一般</Pos>  </Bound>
+	  <Bound> <Pos> 名詞-固有名詞-一般</Pos>  </Bound>
+	  <Bound> <Pos> 名詞-接尾-地域</Pos>  </Bound>
+	  <NextList> <Pos base="出口"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="入口"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="出入口"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="先"> 名詞-接尾-一般  </Pos> </NextList>
+	  <NextList> <Pos base="終点"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="上り"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="下り"> 名詞-一般  </Pos> </NextList>
+	  <!--  <NextList> <Pos base="ＩＣ"> 名詞-一般  </Pos> </NextList> -->
+	  <!--  <NextList> <Pos base="ＰＡ"> 名詞-一般  </Pos> </NextList> -->
+	</Pattern>
+
+<!--
+	<Pattern  name="英単語＋空白＋英単語">
+	  <PrevList> <Pos> 名詞-固有名詞-英単語 </Pos> </PrevList>
+	  <Bound> <Pos base="　"> 記号-空白  </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-固有名詞-英単語 </Pos> </NextList>
+	</Pattern>
+-->
+
+	<Pattern  name="名詞サ変接続＋する＋れる＋ない">
+	  <Bound> <Pos> 名詞-サ変接続 </Pos> </Bound>
+	  <NextList>
+	    <Pos base="する"> 動詞-自立 </Pos>
+	    <Pos base="れる"> 動詞-接尾 </Pos>
+	    <Pos base="ない"> 助動詞 </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="形容詞＋ない＋｛付属語｝">
+	  <Bound> <Pos> 形容詞-自立 </Pos> </Bound>
+	  <NextList>
+	    <Pos base="ない"> 助動詞 </Pos>
+	    <Pos base="よ"> 助詞-終助詞 </Pos>
+	  </NextList>
+	  <NextList>
+	    <Pos base="ない"> 助動詞 </Pos>
+	    <Pos base="た"> 助動詞 </Pos>
+	  </NextList>
+	</Pattern>
+
+
+	<Pattern  name="形容的名詞＋名詞">
+	  <!-- <PrevList> <Pos> 名詞-* </Pos> </PrevList> -->
+	  <Bound> <Pos base="大手"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="大手"> 名詞-形容動詞語幹  </Pos>  </Bound>
+	  <Bound> <Pos read="ズイブン"> 名詞-形容動詞語幹 </Pos>  </Bound>
+	  <Bound> <Pos base="たいてい"> 名詞-形容動詞語幹  </Pos> </Bound>
+	  <Bound> <Pos base="大抵"> 名詞-形容動詞語幹  </Pos> </Bound>
+	  <Bound> <Pos base="同国"> 名詞-一般  </Pos>  </Bound>
+	  <Bound> <Pos base="同党"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="各種"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="名詞＋接尾語的名詞＋名詞">
+	  <PrevList> <Pos> 名詞-* </Pos> </PrevList>
+	  <Bound> <Pos base="協会"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="大会"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="接尾語的名詞（固有名詞-名　不選択への対策）">
+	  <Bound> <Pos> 名詞-*</Pos> </Bound>
+	  <NextList> <Pos base="監督"> 名詞-*  </Pos> </NextList>
+	  <NextList> <Pos base="主将"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="主将"> 名詞-一般 </Pos> </NextList>
+	  <NextList> <Pos base="首相"> 名詞-サ変接続  </Pos> </NextList>
+	  <NextList> <Pos base="両党"> 名詞-一般  </Pos> </NextList>
+	  <NextList> <Pos base="無用"> 名詞-一般  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="助詞省略">
+	  <Bound> <Pos base="本文"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="件名"> 名詞-一般  </Pos> </Bound>
+	  <Bound> <Pos base="宛先"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="接尾語的名詞（カタカナ名対策）">
+	  <PrevList> <Pos> 名詞-サ変接続 </Pos> </PrevList>
+	  <Bound> <Pos base="大統領"> 名詞-一般  </Pos> </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="長い動詞">
+	  <Bound> <Pos base="縁を回る"> 動詞-自立  </Pos> </Bound>
+	  <Bound> <Pos base="縁を周る"> 動詞-自立  </Pos> </Bound>
+	  <NextList> <Pos> 動詞-自立 </Pos> </NextList>
+	</Pattern>
+
+	<!--
+	<Pattern  name="文末言い回し、話言葉収録なしの場合有効な場合がある">
+	  <Bound> <Pos read="ダ"> 助動詞  </Pos> </Bound>
+	  <NextList> <Pos base="よ"> 助詞-終助詞 </Pos> </NextList>
+	</Pattern>
+	-->
+
+      </Boundary>
+
+
+      <Boundary  name="上書きアクセント句境界">
+
+	<Pattern  name="助詞＋副詞的名詞（cabocha対策）">
+	  <Bound> <Pos base="を"> 助詞-格助詞-一般 </Pos> </Bound>
+	  <NextList>
+	    <Pos base="元"> 名詞-一般 </Pos>
+	    <Pos base="に"> 助詞-格助詞-一般 </Pos>
+	  </NextList>
+
+	  <NextList>
+	    <Pos base="主"> 名詞-一般 </Pos>
+	    <Pos base="に"> 助詞-格助詞-一般 </Pos>
+	  </NextList>
+
+	  <NextList>
+	    <Pos base="軸"> 名詞-一般 </Pos>
+	    <Pos base="に"> 助詞-格助詞-一般 </Pos>
+	  </NextList>
+
+	  <NextList>
+	    <Pos base="理由"> 名詞-一般 </Pos>
+	    <Pos base="に"> 助詞-格助詞-一般 </Pos>
+	  </NextList>
+
+	  <NextList>
+	    <Pos base="前"> 名詞-副詞可能 </Pos>
+	    <Pos base="に"> 助詞-格助詞-一般 </Pos>
+	  </NextList>
+
+	</Pattern>
+
+
+	<Pattern  name="助詞（から）＋名詞＋読点（cabocha対策）">
+	  <Bound> <Pos base="から"> 助詞-格助詞-一般 </Pos> </Bound>
+	  <NextList>
+	    <Pos> 名詞-* </Pos>
+	    <Pos> 記号-読点 </Pos>
+	  </NextList>
+
+	</Pattern>
+
+
+      </Boundary>
+
+
+      <Boundary  name="PauseCandidate">
+
+	<Pattern  name="日付-曜日-時間">
+	  <PrevList> <Pos> 名詞-数  </Pos> </PrevList>
+	  <Bound> <Pos > 曜日  </Pos>  </Bound>
+	  <NextList> <Pos base="午前"> 名詞-副詞可能  </Pos> </NextList>
+	  <NextList> <Pos base="午後"> 名詞-副詞可能  </Pos> </NextList>
+	  <NextList> <Pos> 名詞-数  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="た-月名">
+	  <Bound> <Pos base="た"> 助動詞 </Pos>  </Bound>
+	  <NextList> <Pos base="午前"> 名詞-副詞可能  </Pos> </NextList>
+	  <NextList> <Pos base="午後"> 名詞-副詞可能  </Pos> </NextList>
+	  <NextList> <Pos> 名詞-数  </Pos> </NextList>
+	  <NextList> <Pos> 月名  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="動詞-非自立＋名詞-非自立＋格助詞（いることを）">
+	  <PrevList> <Pos> 動詞-非自立 </Pos>
+	             <Pos> 名詞-非自立-一般 </Pos>
+	  </PrevList>
+	  <PrevList> <Pos> 助動詞 </Pos>
+	             <Pos> 名詞-非自立-一般 </Pos>
+	  </PrevList>
+	  <Bound> <Pos> 助詞-格助詞-一般 </Pos>  </Bound>
+	</Pattern>
+
+	<Pattern  name="接続的">
+	  <Bound> <Pos base="から"> 助詞-格助詞-一般 </Pos>  </Bound>
+	  <Bound> <Pos base="による"> 助詞-格助詞-連語 </Pos>  </Bound>
+	  <!--<Bound> <Pos base="という"> 助詞-格助詞-連語 </Pos>  </Bound> -->
+	  <Bound> <Pos base="ので"> 助詞-接続助詞 </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	  <NextList> <Pos> 動詞-自立  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="いえる＋名詞">
+	  <PrevList> <Pos> 助詞-*  </Pos> </PrevList>
+	  <Bound> <Pos base="いえる"> 動詞-自立 </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-*  </Pos> </NextList>
+	</Pattern>
+
+	<Pattern  name="格助詞＋形容動詞語幹＋動詞＋助動詞">
+	  <PrevList> <Pos> 名詞-*  </Pos> </PrevList>
+	  <Bound> <Pos> 助詞-格助詞-一般 </Pos>  </Bound>
+	  <NextList>
+	    <Pos> 名詞-形容動詞語幹 </Pos>
+	    <Pos> 動詞-自立 </Pos>
+	    <Pos> 助動詞  </Pos>
+	  </NextList>
+	</Pattern>
+
+	<Pattern  name="係助詞＋形容動詞語幹＋｛名詞ｏｒ動詞｝">
+	  <PrevList>
+	    <Pos> 助詞-副助詞／並立助詞／終助詞 </Pos>
+	  </PrevList>
+	  <Bound> <Pos> 助詞-係助詞 </Pos>  </Bound>
+	  <NextList> <Pos> 名詞-* </Pos> </NextList>
+	  <NextList> <Pos> 動詞-自立 </Pos> </NextList>
+	</Pattern>
+
+	<!--
+	<Pattern  name="動詞基本形＋主語＋句はじまり（！動詞）">
+	  <Bound> <Pos form="基本形"> 動詞-* </Pos>  </Bound>
+	  <NextList>
+	    <Pos repeat="+"> 名詞-* </Pos>
+	    <Pos> 助詞-* </Pos>
+	    <Pos> 句はじまり（！動詞）</Pos>
+	  </NextList>
+	</Pattern>
+	-->
+
+      </Boundary>
+
+
+
+    </List>
+  </Body>
+</BoundarySet>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<MorphSet>
+
+<Head>
+<Name> ipadic </Name>
+<Version> 1.00 </Version>
+</Head>
+
+<Body>
+
+<PosList>
+
+<Pos Code="0x01000000"> 名詞-一般 </Pos>
+<Pos Code="0x01010000"> 名詞-固有名詞-一般 </Pos>
+<Pos Code="0x01010100"> 名詞-固有名詞-人名-一般 </Pos>
+<Pos Code="0x01010101"> 名詞-固有名詞-人名-姓 </Pos>
+<Pos Code="0x01010102"> 名詞-固有名詞-人名-名 </Pos>
+<Pos Code="0x01010200"> 名詞-固有名詞-組織 </Pos>
+<Pos Code="0x01010300"> 名詞-固有名詞-地域-一般 </Pos>
+<Pos Code="0x01010301"> 名詞-固有名詞-地域-国 </Pos>
+<Pos Code="0x01010400"> 名詞-固有名詞-英単語 </Pos>
+<Pos Code="0x01010500"> 名詞-固有名詞-ユーザ固有 </Pos>
+
+<Pos Code="0x01020000"> 名詞-代名詞-一般 </Pos>
+<Pos Code="0x01020100"> 名詞-代名詞-縮約 </Pos>
+<Pos Code="0x01030000"> 名詞-副詞可能 </Pos>
+<Pos Code="0x01040000"> 名詞-サ変接続 </Pos>
+<Pos Code="0x01050000"> 名詞-形容動詞語幹 </Pos>
+<Pos Code="0x01060000"> 名詞-数 </Pos>
+<Pos Code="0x01070000"> 名詞-非自立-一般 </Pos>
+<Pos Code="0x01070100"> 名詞-非自立-副詞可能 </Pos>
+<Pos Code="0x01070200"> 名詞-非自立-助動詞語幹 </Pos>
+<Pos Code="0x01070300"> 名詞-非自立-形容動詞語幹 </Pos>
+<Pos Code="0x01080000"> 名詞-特殊-助動詞語幹 </Pos>
+<Pos Code="0x01090000"> 名詞-接尾-一般 </Pos>
+<Pos Code="0x01090100"> 名詞-接尾-人名 </Pos>
+<Pos Code="0x01090200"> 名詞-接尾-地域 </Pos>
+<Pos Code="0x01090300"> 名詞-接尾-サ変接続 </Pos>
+<Pos Code="0x01090400"> 名詞-接尾-助動詞語幹 </Pos>
+<Pos Code="0x01090500"> 名詞-接尾-形容動詞語幹 </Pos>
+<Pos Code="0x01090600"> 名詞-接尾-副詞可能 </Pos>
+<Pos Code="0x01090700"> 名詞-接尾-助数詞 </Pos>
+<Pos Code="0x01090800"> 名詞-接尾-特殊 </Pos>
+<Pos Code="0x010a0000"> 名詞-接続詞的 </Pos>
+<Pos Code="0x010b0000"> 名詞-動詞非自立的 </Pos>
+<Pos Code="0x010c0000"> 名詞-引用文字列 </Pos>
+<Pos Code="0x010d0000"> 名詞-ナイ形容詞語幹 </Pos>
+
+<Pos Code="0x02000000"> 接頭詞-名詞接続 </Pos>
+<Pos Code="0x02010000"> 接頭詞-動詞接続 </Pos>
+<Pos Code="0x02020000"> 接頭詞-形容詞接続 </Pos>
+<Pos Code="0x02030000"> 接頭詞-数接続 </Pos>
+
+<Pos Code="0x03000000"> 動詞-自立 </Pos>
+<Pos Code="0x03010000"> 動詞-非自立 </Pos>
+<Pos Code="0x03020000"> 動詞-接尾 </Pos>
+
+<Pos Code="0x04000000"> 形容詞-自立 </Pos>
+<Pos Code="0x04010000"> 形容詞-非自立 </Pos>
+<Pos Code="0x04020000"> 形容詞-接尾 </Pos>
+
+<Pos Code="0x05000000"> 副詞-一般 </Pos>
+<Pos Code="0x05010000"> 副詞-助詞類接続 </Pos>
+
+<Pos Code="0x06000000"> 連体詞 </Pos>
+
+<Pos Code="0x07000000"> 接続詞 </Pos>
+
+<Pos Code="0x08000000"> 助詞-格助詞-一般 </Pos>
+<Pos Code="0x08000100"> 助詞-格助詞-引用 </Pos>
+<Pos Code="0x08000200"> 助詞-格助詞-連語 </Pos>
+<Pos Code="0x08010000"> 助詞-接続助詞 </Pos>
+<Pos Code="0x08020000"> 助詞-係助詞 </Pos>
+<Pos Code="0x08030000"> 助詞-副助詞 </Pos>
+<Pos Code="0x08040000"> 助詞-間投助詞 </Pos>
+<Pos Code="0x08050000"> 助詞-並立助詞 </Pos>
+<Pos Code="0x08060000"> 助詞-終助詞 </Pos>
+<Pos Code="0x08070000"> 助詞-副助詞／並立助詞／終助詞 </Pos>
+<Pos Code="0x08080000"> 助詞-連体化 </Pos>
+<Pos Code="0x08090000"> 助詞-副詞化 </Pos>
+<Pos Code="0x080a0000"> 助詞-特殊 </Pos>
+
+<Pos Code="0x09000000"> 助動詞 </Pos>
+
+<Pos Code="0x0a000000"> 感動詞 </Pos>
+
+<Pos Code="0x0b000000"> 記号-一般 </Pos>
+<Pos Code="0x0b010000"> 記号-句点 </Pos>
+<Pos Code="0x0b020000"> 記号-読点 </Pos>
+<Pos Code="0x0b030000"> 記号-空白 </Pos>
+<Pos Code="0x0b040000"> 記号-アルファベット </Pos>
+<Pos Code="0x0b050000"> 記号-括弧開 </Pos>
+<Pos Code="0x0b060000"> 記号-括弧閉 </Pos>
+<Pos Code="0x0b070000"> 記号-ルビ </Pos>
+<Pos Code="0x0b080000"> 記号-ＸＭＬ </Pos>
+<Pos Code="0x0b090000"> 記号-フレーズ </Pos>
+
+<Pos Code="0x0c000000"> その他-間投 </Pos>
+
+<Pos Code="0x0d000000"> フィラー </Pos>
+<Pos Code="0x0d010000"> 非言語音 </Pos>
+<Pos Code="0x0d020000"> 語断片 </Pos>
+<Pos Code="0x0d030000"> 未知語 </Pos>
+
+</PosList>
+
+
+
+
+<ConjugateTypeList>
+
+<ConjugateType Code="0x0100"> カ変・クル </ConjugateType>
+<ConjugateType Code="0x0101"> カ変・来ル </ConjugateType>
+
+<ConjugateType Code="0x0200"> サ変・スル </ConjugateType>
+<ConjugateType Code="0x0201"> サ変・－スル </ConjugateType>
+<ConjugateType Code="0x0202"> サ変・－ズル </ConjugateType>
+
+<ConjugateType Code="0x0300"> 一段 </ConjugateType>
+<ConjugateType Code="0x0301"> 一段・病メル </ConjugateType>
+<ConjugateType Code="0x0302"> 一段・クレル </ConjugateType>
+
+<ConjugateType Code="0x0400"> 五段・カ行イ音便 </ConjugateType>
+<ConjugateType Code="0x0401"> 五段・カ行促音便 </ConjugateType>
+<ConjugateType Code="0x0402"> 五段・カ行促音便ユク </ConjugateType>
+<ConjugateType Code="0x0403"> 五段・ガ行 </ConjugateType>
+<ConjugateType Code="0x0404"> 五段・サ行 </ConjugateType>
+<ConjugateType Code="0x0405"> 五段・タ行 </ConjugateType>
+<ConjugateType Code="0x0406"> 五段・ナ行 </ConjugateType>
+<ConjugateType Code="0x0407"> 五段・バ行 </ConjugateType>
+<ConjugateType Code="0x0408"> 五段・マ行 </ConjugateType>
+<ConjugateType Code="0x0409"> 五段・ラ行 </ConjugateType>
+<ConjugateType Code="0x040a"> 五段・ラ行アル </ConjugateType>
+<ConjugateType Code="0x040b"> 五段・ラ行特殊 </ConjugateType>
+<ConjugateType Code="0x040c"> 五段・ワ行ウ音便 </ConjugateType>
+<ConjugateType Code="0x040d"> 五段・ワ行促音便 </ConjugateType>
+
+<ConjugateType Code="0x0500"> 四段・カ行 </ConjugateType>
+<ConjugateType Code="0x0501"> 四段・ガ行 </ConjugateType>
+<ConjugateType Code="0x0502"> 四段・サ行 </ConjugateType>
+<ConjugateType Code="0x0503"> 四段・タ行 </ConjugateType>
+<ConjugateType Code="0x0504"> 四段・バ行 </ConjugateType>
+<ConjugateType Code="0x0505"> 四段・マ行 </ConjugateType>
+<ConjugateType Code="0x0506"> 四段・ラ行 </ConjugateType>
+<ConjugateType Code="0x0507"> 四段・ハ行 </ConjugateType>
+
+<ConjugateType Code="0x0600"> ラ変 </ConjugateType>
+
+<ConjugateType Code="0x0700"> 上二・ダ行 </ConjugateType>
+<ConjugateType Code="0x0701"> 上二・ハ行 </ConjugateType>
+
+<ConjugateType Code="0x0800"> 下二・ア行 </ConjugateType>
+<ConjugateType Code="0x0801"> 下二・カ行 </ConjugateType>
+<ConjugateType Code="0x0802"> 下二・ガ行 </ConjugateType>
+<ConjugateType Code="0x0803"> 下二・サ行 </ConjugateType>
+<ConjugateType Code="0x0804"> 下二・ザ行 </ConjugateType>
+<ConjugateType Code="0x0805"> 下二・タ行 </ConjugateType>
+<ConjugateType Code="0x0806"> 下二・ダ行 </ConjugateType>
+<ConjugateType Code="0x0807"> 下二・ナ行 </ConjugateType>
+<ConjugateType Code="0x0808"> 下二・ハ行 </ConjugateType>
+<ConjugateType Code="0x0809"> 下二・バ行 </ConjugateType>
+<ConjugateType Code="0x080a"> 下二・マ行 </ConjugateType>
+<ConjugateType Code="0x080b"> 下二・ヤ行 </ConjugateType>
+<ConjugateType Code="0x080c"> 下二・ラ行 </ConjugateType>
+<ConjugateType Code="0x080d"> 下二・ワ行 </ConjugateType>
+<ConjugateType Code="0x080e"> 下二・得 </ConjugateType>
+
+<ConjugateType Code="0x0900"> 一段・得ル </ConjugateType>
+<ConjugateType Code="0x0901"> 一段・ル </ConjugateType>
+
+<ConjugateType Code="0x0a00"> 形容詞・アウオ段 </ConjugateType>
+<ConjugateType Code="0x0a01"> 形容詞・イ段 </ConjugateType>
+
+<ConjugateType Code="0x0b00"> 不変化型 </ConjugateType>
+
+<ConjugateType Code="0x0c00"> 特殊・ナイ </ConjugateType>
+<ConjugateType Code="0x0c01"> 特殊・タイ </ConjugateType>
+<ConjugateType Code="0x0c02"> 特殊・タ </ConjugateType>
+<ConjugateType Code="0x0c03"> 特殊・ダ </ConjugateType>
+<ConjugateType Code="0x0c04"> 特殊・デス </ConjugateType>
+<ConjugateType Code="0x0c05"> 特殊・ジャ </ConjugateType>
+<ConjugateType Code="0x0c06"> 特殊・マス </ConjugateType>
+<ConjugateType Code="0x0c07"> 特殊・ヌ </ConjugateType>
+<ConjugateType Code="0x0c08"> 特殊・ヤ </ConjugateType>
+
+<ConjugateType Code="0x0d00"> 文語・ベシ </ConjugateType>
+<ConjugateType Code="0x0d01"> 文語・ゴトシ </ConjugateType>
+<ConjugateType Code="0x0d02"> 文語・ナリ </ConjugateType>
+<ConjugateType Code="0x0d03"> 文語・マジ </ConjugateType>
+<ConjugateType Code="0x0d04"> 文語・シム </ConjugateType>
+<ConjugateType Code="0x0d05"> 文語・キ </ConjugateType>
+<ConjugateType Code="0x0d06"> 文語・ケリ </ConjugateType>
+<ConjugateType Code="0x0d07"> 文語・ル </ConjugateType>
+<ConjugateType Code="0x0d08"> 文語・リ </ConjugateType>
+
+</ConjugateTypeList>
+
+
+<ConjugateFormList>
+
+<ConjugateForm Code="0x0100"> 基本形 </ConjugateForm>
+<ConjugateForm Code="0x0101"> 音便基本形 </ConjugateForm>
+<ConjugateForm Code="0x0102"> 現代基本形 </ConjugateForm>
+<ConjugateForm Code="0x0103"> 文語基本形 </ConjugateForm>
+<ConjugateForm Code="0x0104"> 語幹 </ConjugateForm>
+
+<ConjugateForm Code="0x0200"> 仮定形 </ConjugateForm>
+<ConjugateForm Code="0x0201"> 仮定縮約１ </ConjugateForm>
+<ConjugateForm Code="0x0202"> 仮定縮約２ </ConjugateForm>
+
+<ConjugateForm Code="0x0300"> 体言接続 </ConjugateForm>
+<ConjugateForm Code="0x0301"> 体言接続特殊 </ConjugateForm>
+<ConjugateForm Code="0x0302"> 体言接続特殊２ </ConjugateForm>
+
+<ConjugateForm Code="0x0400"> 未然ウ接続 </ConjugateForm>
+<ConjugateForm Code="0x0401"> 未然ヌ接続 </ConjugateForm>
+<ConjugateForm Code="0x0402"> 未然レル接続 </ConjugateForm>
+<ConjugateForm Code="0x0403"> 未然形 </ConjugateForm>
+<ConjugateForm Code="0x0404"> 未然特殊 </ConjugateForm>
+
+<ConjugateForm Code="0x0500"> 命令ｅ </ConjugateForm>
+<ConjugateForm Code="0x0501"> 命令ｉ </ConjugateForm>
+<ConjugateForm Code="0x0502"> 命令ｒｏ </ConjugateForm>
+<ConjugateForm Code="0x0503"> 命令ｙｏ </ConjugateForm>
+
+<ConjugateForm Code="0x0600"> 連用形 </ConjugateForm>
+<ConjugateForm Code="0x0601"> 連用ゴザイ接続 </ConjugateForm>
+<ConjugateForm Code="0x0602"> 連用タ接続 </ConjugateForm>
+<ConjugateForm Code="0x0603"> 連用テ接続 </ConjugateForm>
+<ConjugateForm Code="0x0604"> 連用デ接続 </ConjugateForm>
+<ConjugateForm Code="0x0605"> 連用ニ接続 </ConjugateForm>
+
+<ConjugateForm Code="0x0700"> ガル接続 </ConjugateForm>
+
+</ConjugateFormList>
+
+
+
+<ModificationTypeList>
+
+<ModificationType Code="0x0"> 引用境界   </ModificationType>
+<ModificationType Code="0x1"> 係り受け   </ModificationType>
+<ModificationType Code="0x2"> 節境界     </ModificationType>
+<ModificationType Code="0x3"> 複合語内   </ModificationType>
+<ModificationType Code="0x4"> 並列       </ModificationType>
+<ModificationType Code="0x5"> 並列始め   </ModificationType>
+
+</ModificationTypeList>
+
+
+
+</Body>
+</MorphSet>

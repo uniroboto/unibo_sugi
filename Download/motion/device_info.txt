@@ -1,0 +1,8 @@
+{
+    "Device": [
+        {
+            "VendorID": "9025",
+            "ProductID": "67"
+        }
+    ]
+}

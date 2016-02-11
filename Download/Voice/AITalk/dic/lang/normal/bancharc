@@ -1,0 +1,1415 @@
+;/////////|/////////|/////////|/////////|/////////|/////////|/////////|
+;//
+;//  Copyright (C) 2002-2004 by ATR All rights reserved.
+;//
+;//	機能: 数詞句(bangou)モジュール用リソース
+;//
+;//	履歴:
+;//
+;//	メモ:
+;//
+;/////////|/////////|/////////|/////////|/////////|/////////|/////////|
+
+;MAX=150 要ソート
+[アクセント]
+ワン	Read=ワン	Accent=1-2	Flag=10000	;
+ロッピャッ	Read=ロッピャッ	Accent=0-4	Flag=30000	;
+ロッピャク	Read=ロッピャク	Accent=4-4	Flag=30000	;
+ロッ	Read=ロッ	Accent=0-2	Flag=10100	;
+ロクセン	Read=ロクセン	Accent=3-4	Flag=30000	;
+ロクジュッ	Read=ロクジュッ	Accent=0-4	Flag=30000	;
+ロクジュー	Read=ロクジュウ	Accent=3-4	Flag=31000	;
+ロク	Read=ロク	Accent=2-2	Flag=10101	;
+レー	Read=レイ	Accent=1-2	Flag=10001	;
+ヨンヒャッ	Read=ヨンヒャッ	Accent=0-4	Flag=30000	;
+ヨンヒャク	Read=ヨンヒャク	Accent=1-4	Flag=30000	;
+ヨンセン	Read=ヨンセン	Accent=3-4	Flag=30000	;
+ヨンジュッ	Read=ヨンジュッ	Accent=0-4	Flag=30000	;
+ヨンジュー	Read=ヨンジュウ	Accent=1-4	Flag=30000	;
+ヨン	Read=ヨン	Accent=1-2	Flag=10101	;
+ヨッ	Read=ヨッ	Accent=0-2	Flag=10100	;
+ヨー	Read=ヨウ	Accent=0-2	Flag=10100	;
+ヨ	Read=ヨ	Accent=0-1	Flag=10100	;
+ヨ	Read=ヨ	Accent=1-1	Flag=10000	;
+ムッ	Read=ムッ	Accent=0-2	Flag=10100	;
+ムイ	Read=ムイ	Accent=0-2	Flag=10100	;
+ミッ	Read=ミッ	Accent=0-2	Flag=10100	;
+マン	Read=マン	Accent=1-2	Flag=10010	;
+マル	Read=マル	Accent=0-2	Flag=20001	;
+トビ	Read=トビ	Accent=0-2	Flag=00000	;
+トンデ	Read=トンデ	Accent=0-3	Flag=30000	;
+;ブンノ	Read=ブンノ	Accent=0-3	Flag=00000	
+ブンノ	Read=ブンノ	Accent=0-3	Flag=00040	;
+フツ	Read=フツ	Accent=0-2	Flag=10100	;
+フタヒャク	Read=フタヒャク	Accent=2-4	Flag=30000	;
+フタセン	Read=フタセン	Accent=3-4	Flag=30000	;
+フタジュー	Read=フタジュウ	Accent=2-4	Flag=30000	;
+フタ	Read=フタ	Accent=0-2	Flag=10100	;
+フォー	Read=フォー	Accent=1-3	Flag=10000	;
+ファイブ	Read=ファイブ	Accent=1-4	Flag=10000	;
+;ビョー	Read=ビョウ	Accent=0-2	Flag=00020	;
+ビョー	Read=ビョウ	Accent=1-2	Flag=00020	;
+ヒャッ	Read=ヒャッ	Accent=0-2	Flag=10000	;
+ヒャク	Read=ヒャク	Accent=2-2	Flag=10000	;
+ヒト	Read=ヒト	Accent=0-2	Flag=10100	;
+ハン	Read=ハン	Accent=1-2	Flag=00000	;
+ハッピャッ	Read=ハッピャッ	Accent=0-4	Flag=30000	;
+ハッピャク	Read=ハッピャク	Accent=4-4	Flag=30000	;
+ハッセン	Read=ハッセン	Accent=3-4	Flag=30000	;
+ハツ	Read=ハツ	Accent=0-2	Flag=00000	;
+ハッ	Read=ハッ	Accent=0-2	Flag=10100	;
+ハチジュッ	Read=ハチジュッ	Accent=0-4	Flag=30000	;
+ハチジュー	Read=ハチジュウ	Accent=3-4	Flag=31000	;
+ハチ	Read=ハチ	Accent=2-2	Flag=10101	;
+;ノ	Read=ノ	Accent=0-1	Flag=00000	;
+ノ	Read=ノ	Accent=0-1	Flag=00030	; 2-2-2 ではこちらが良い
+ニヒャッ	Read=ニヒャッ	Accent=0-3	Flag=20000	;
+ニヒャク	Read=ニヒャク	Accent=3-3	Flag=20000	;
+ニセン	Read=ニセン	Accent=2-3	Flag=20000	;
+ニジュッ	Read=ニジュッ	Accent=0-3	Flag=20000	;
+ニジュー	Read=ニジュウ	Accent=1-3	Flag=20000	;
+ニー	Read=ニー	Accent=0-2	Flag=10101	;
+ニ	Read=ニ	Accent=1-1	Flag=10101	;
+ナンビャッ	Read=ナンビャッ	Accent=0-4	Flag=30000	;
+ナンビャク	Read=ナンビャク	Accent=1-4	Flag=30000	;
+ナンゼン	Read=ナンゼン	Accent=3-4	Flag=30000	;
+ナンジュッ	Read=ナンジュッ	Accent=0-4	Flag=30000	;
+ナンジュー	Read=ナンジュウ	Accent=1-4	Flag=30000	;
+ナン	Read=ナン	Accent=0-2	Flag=10000	;
+ナノ	Read=ナノ	Accent=0-2	Flag=10100	;
+ナナヒャッ	Read=ナナヒャッ	Accent=0-4	Flag=30000	;
+ナナヒャク	Read=ナナヒャク	Accent=2-4	Flag=30000	;
+ナナセン	Read=ナナセン	Accent=3-4	Flag=30000	;
+ナナジュッ	Read=ナナジュッ	Accent=0-4	Flag=30000	;
+ナナジュー	Read=ナナジュウ	Accent=2-4	Flag=30000	;
+ナナ	Read=ナナ	Accent=1-2	Flag=10101	;
+ナイン	Read=ナイン	Accent=1-3	Flag=10000	;
+;トー	Read=トウ	Accent=0-2	Flag=10000	;
+トー	Read=トウ	Accent=1-2	Flag=10000	;
+テン	Read=テン	Accent=0-2	Flag=00020	;
+ツー	Read=ツー	Accent=1-2	Flag=10000	;
+チョー	Read=チョウ	Accent=0-2	Flag=10010	;
+;タイ	Read=タイ	Accent=0-2	Flag=00000	;
+タイ	Read=タイ	Accent=0-2	Flag=00010	;
+セン	Read=セン	Accent=1-2	Flag=10000	;
+ゼロ	Read=ゼロ	Accent=1-2	Flag=10001	;
+セブン	Read=セブン	Accent=1-3	Flag=10000	;
+スリー	Read=スリー	Accent=2-3	Flag=10000	;
+スーヒャッ	Read=スウヒャッ	Accent=0-4	Flag=30000	;
+スーヒャク	Read=スウヒャク	Accent=1-4	Flag=30000	;
+スーセン	Read=スウセン	Accent=3-4	Flag=30000	;
+スージュッ	Read=スウジュッ	Accent=0-4	Flag=30000	;
+スージュー	Read=スウジュウ	Accent=1-4	Flag=30000	;
+スー	Read=スウ	Accent=1-2	Flag=10000	;
+ジューイチ	Read=ジューイチ	Accent=4-4	Flag=30000	;;アクセント結合のため10の桁登録
+ジューニー	Read=ジューニー	Accent=3-4	Flag=30000	;
+ジューニ	Read=ジューニ	Accent=3-3	Flag=30000	;
+ジューフタ	Read=ジューフタ	Accent=4-4	Flag=40000	;
+ジューサン	Read=ジューサン	Accent=1-4	Flag=30000	;
+ジューヨン	Read=ジューヨン	Accent=3-4	Flag=30000	;
+ジューヨ	Read=ジューヨ	Accent=1-3	Flag=30000	;
+ジューゴー	Read=ジューゴー	Accent=3-4	Flag=30000	;
+ジューゴ	Read=ジューゴ	Accent=1-3	Flag=30000	;
+ジューロク	Read=ジューロク	Accent=4-4	Flag=30000	;
+ジューナナ	Read=ジューナナ	Accent=3-4	Flag=30000	;
+ジューハチ	Read=ジューハチ	Accent=4-4	Flag=30000	;
+ジューキュー	Read=ジューキュー	Accent=3-4	Flag=30000	;
+ジュッ	Read=ジュッ	Accent=0-2	Flag=10000	;
+ジュー	Read=ジュウ	Accent=1-2	Flag=11000	;
+シックス	Read=シックス	Accent=1-4	Flag=10000	;
+シチ	Read=シチ	Accent=2-2	Flag=10100	;
+シ	Read=シ	Accent=1-1	Flag=10100	;
+サンビャッ	Read=サンビャッ	Accent=0-4	Flag=30000	;
+サンビャク	Read=サンビャク	Accent=1-4	Flag=30000	;
+サンゼン	Read=サンゼン	Accent=3-4	Flag=30000	;
+サンジュッ	Read=サンジュッ	Accent=0-4	Flag=30000	;
+サンジュー	Read=サンジュウ	Accent=1-4	Flag=30000	;
+サン	Read=サン	Accent=0-2	Flag=10101	;
+;サン	Read=サン	Accent=0-2	Flag=10001	;"ジュー"の次で平板化しない
+ゴヒャッ	Read=ゴヒャッ	Accent=0-3	Flag=20000	;
+ゴヒャク	Read=ゴヒャク	Accent=3-3	Flag=20000	;
+ゴセン	Read=ゴセン	Accent=2-3	Flag=20000	;
+ゴジュッ	Read=ゴジュッ	Accent=0-3	Flag=20000	;
+ゴジュー	Read=ゴジュウ	Accent=2-3	Flag=21000	;
+ココノ	Read=ココノ	Accent=0-3	Flag=10100	;
+ゴー	Read=ゴー	Accent=1-2	Flag=10101	;
+ゴ	Read=ゴ	Accent=1-1	Flag=10101	;
+;ゴ	Read=ゴ	Accent=1-1	Flag=10001	;;"ジュー"の次で平板化しない
+ク	Read=ク	Accent=1-1	Flag=10100	;
+ケイ	Read=ケイ	Accent=0-2	Flag=10010	;
+キューヒャッ	Read=キュウヒャッ	Accent=0-4	Flag=30000	;
+キューヒャク	Read=キュウヒャク	Accent=1-4	Flag=30000	;
+キューセン	Read=キュウセン	Accent=3-4	Flag=30000	;
+キュージュッ	Read=キュウジュッ	Accent=0-4	Flag=30000	;
+キュージュー	Read=キュウジュウ	Accent=1-4	Flag=30000	;
+キュー	Read=キュウ	Accent=1-2	Flag=10101	;
+ガイ	Read=ガイ	Accent=0-2	Flag=10010	;
+カラ	Read=カラ	Accent=0-2	Flag=00030	;
+カ	Read=カ	Accent=0-1	Flag=00000	;
+オク	Read=オク	Accent=0-2	Flag=10010	;
+エイト	Read=エイト	Accent=1-3	Flag=10000	;
+イッセン	Read=イッセン	Accent=3-4	Flag=30000	;
+イツ	Read=イツ	Accent=0-2	Flag=10100	;
+イッ	Read=イッ	Accent=0-2	Flag=10100	;
+イチ	Read=イチ	Accent=2-2	Flag=10101	;
+イクヒャッ	Read=イクヒャッ	Accent=0-4	Flag=30000	;
+イクヒャク	Read=イクヒャク	Accent=1-4	Flag=30000	;
+イクセン	Read=イクセン	Accent=1-4	Flag=30000	;
+イクジュッ	Read=イクジュッ	Accent=0-4	Flag=30000	;
+イクジュー	Read=イクジュウ	Accent=1-4	Flag=30000	;
+イク	Read=イク	Accent=1-2	Flag=10000	;
+１０	Read=１０	Accent=1-2	Flag=10000	;英語読みの１０＝テン
+ジ	Read=ジ	Accent=0-1	Flag=00010	;fujita 時間'：'のため
+フン	Read=フン	Accent=1-2	Flag=00030	;fujita 時間'：'のため
+;ビョー	Read=ビョウ	Accent=1-2	Flag=00010	;fujita 時間'：'のため
+;ネン	Read=ネン	Accent=1-2	Flag=00030	;fujita 時間'／'のため
+;ガツ	Read=ガツ	Accent=1-2	Flag=00040	;fujita 時間'／'のため
+ドル	Read=ドル	Accent=1-2	Flag=00030	;fujita 'ｎ．ｎｎ＄'のため
+（	Read=（	Accent=s1	Flag=00000	;fujita 休止用
+）	Read=）	Accent=s1	Flag=00000	;fujita 休止用
+：	Read=：	Accent=s1	Flag=00000	;fujita 休止用
+
+;MAX=10
+;Read
+[読み]
+ゼロ	Len=4	Read=ゼロ	Sound=ゼロ
+ひと	Len=4	Read=ヒト	Sound=ヒト
+いく	Len=4	Read=イク	Sound=イク
+ひゃく	Len=6	Read=ヒャク	Sound=ヒャク
+
+;Jap
+;漢数詞
+[数字]
+〇	Type=Jap	Read=レイ	Sound=レー
+一	Type=Jap	Read=イチ	Sound=イチ
+二	Type=Jap	Read=ニ	Sound=ニ
+三	Type=Jap	Read=サン	Sound=サン
+四	Type=Jap	Read=ヨン	Sound=ヨン
+五	Type=Jap	Read=ゴ	Sound=ゴ
+六	Type=Jap	Read=ロク	Sound=ロク
+七	Type=Jap	Read=ナナ	Sound=ナナ
+八	Type=Jap	Read=ハチ	Sound=ハチ
+九	Type=Jap	Read=キュウ	Sound=キュー
+零	Type=Jap	Read=レイ	Sound=レー
+壱	Type=Jap	Read=イチ	Sound=イチ
+弐	Type=Jap	Read=ニ	Sound=ニ
+Б	Type=Jap	Read=フタ	Sound=フタ
+参	Type=Jap	Read=サン	Sound=サン
+О	Type=Jap	Read=マル	Sound=マル
+鳶	Type=Jap	Read=トビ	Sound=トビ
+
+;Eng
+;英数詞
+[数字]
+０	Type=Eng	Eng=ゼロ	Jap=〇	Read=ゼロ	Sound=ゼロ
+;０	Type=Eng	Eng=ゼロ	Jap=〇	Read=レイ	Sound=レー
+１	Type=Eng	Eng=ワン	Jap=一	Read=イチ	Sound=イチ
+２	Type=Eng	Eng=ツー	Jap=二	Read=ニ	Sound=ニ
+３	Type=Eng	Eng=スリー	Jap=三	Read=サン	Sound=サン
+４	Type=Eng	Eng=フォー	Jap=四	Read=ヨン	Sound=ヨン
+５	Type=Eng	Eng=ファイブ	Jap=五	Read=ゴ	Sound=ゴ
+６	Type=Eng	Eng=シックス	Jap=六	Read=ロク	Sound=ロク
+７	Type=Eng	Eng=セブン	Jap=七	Read=ナナ	Sound=ナナ
+８	Type=Eng	Eng=エイト	Jap=八	Read=ハチ	Sound=ハチ
+９	Type=Eng	Eng=ナイン	Jap=九	Read=キュウ	Sound=キュー
+
+;Unit
+;位取り
+[数字]
+十	Type=Unit	Read=ジュウ	Sound=ジュー
+百	Type=Unit	Read=ヒャク	Sound=ヒャク
+千	Type=Unit	Read=セン	Sound=セン
+万	Type=Unit	Read=マン	Sound=マン
+億	Type=Unit	Read=オク	Sound=オク
+兆	Type=Unit	Read=チョウ	Sound=チョー
+京	Type=Unit	Read=ケイ	Sound=ケイ
+垓	Type=Unit	Read=ガイ	Sound=ガイ
+数	Type=Unit	Read=スウ	Sound=スー
+何	Type=Unit	Read=ナン	Sound=ナン
+幾	Type=Unit	Read=イク	Sound=イク
+余	Type=Unit	Read=ヨ		Sound=ヨ
+半	Type=Unit	Read=ハン	Sound=ハン
+榻	Type=Unit	Read=トウ	Sound=トー
+
+;Tj
+;助数詞音韻変化
+;          ABCDEFGHIJKLMNOPQR
+[数字]
+〇	Tj=000000000000000000
+一	Tj=022000220002220002
+二	Tj=000000000000000000
+三	Tj=021111211202000002
+四	Tj=020000200200000002
+五	Tj=000000000000000000
+六	Tj=022200222002000000
+七	Tj=000000000000000100
+八	Tj=022200000202000102
+九	Tj=000000000000000100
+十	Tj=022200222222202102
+百	Tj=022200222200000102
+千	Tj=021110211210000112
+万	Tj=021110211210000112
+億	Tj=000000000000000000
+兆	Tj=000000000000000000
+京	Tj=000000000000000000
+垓	Tj=000000000000000000
+数	Tj=000000000000000000
+何	Tj=021100210210000102
+幾	Tj=000000000000000000
+;：	Tj=021110211210000112
+
+;Tk
+;アクセント変化
+;           A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ]
+[数字]
+〇	Tk= 0 0 0 0 2 3 0 0 0 0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+一	Tk= 0 0 0 0 2 3 0 3 2 3 0 3 2 2 3 3 3 3 0 0 3 0 1 2 3 0 3 0 0
+二	Tk= 0 0 0 0 2 3 0 0 2 3 0 3 2 2 3 0 0 0 0 0 0 0 0 2 3 3 3 0 0
+三	Tk= 0 0 1 1 2 0 0 0 0 0 2 0 0 2 3 0 0 0 0 0 0 1 0 0 0 2 0 0 0
+四	Tk= 0 0 0 1 0 0 0 0 0 3 2 3 0 2 3 0 0 0 0 0 0 1 0 0 0 2 0 0 0
+五	Tk= 0 1 1 1 2 3 0 0 2 3 2 0 2 2 3 0 0 0 0 0 0 1 0 2 3 2 0 0 0
+六	Tk= 0 0 0 0 2 3 0 3 2 0 0 3 2 2 3 3 0 0 3 0 0 0 0 2 3 0 3 0 0
+七	Tk= 0 0 0 0 0 0 0 0 0 0 0 3 0 2 3 0 0 0 0 0 0 0 0 2 0 0 3 0 0
+八	Tk= 0 0 0 0 2 3 0 3 0 0 0 3 2 2 3 0 3 0 3 3 0 0 0 0 0 0 3 0 0
+九	Tk= 0 0 0 0 0 0 0 0 0 0 2 0 0 2 3 0 0 3 0 0 0 1 0 0 0 2 0 0 0
+十	Tk= 0 0 0 0!2!3!1!3 0 0 0 3 2 2 3!3!3 0 0!3 0 0 0 0 0 0 0 0 0
+百	Tk= 0 0 0 0!2!3!1!3 0 0 0 3 2 2 3!3!3 0 0!3 0 0 0 0 0 0 0 0 0
+千	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+万	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+億	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+兆	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+京	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+垓	Tk= 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+数	Tk= 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+何	Tk= 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+幾	Tk= 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+;Con // 必ず１文字
+;数関係詞
+[数字]
+，	Type=Con	Read=，
+．	Type=Con	Read=テン	Sound=テン
+・	Type=Con	Read=・
+;点	Type=Con	Read=・
+点	Type=Con	Read=テン	Sound=テン
+対	Type=Con	Read=タイ	Sound=タイ
+秒	Type=Con	Read=ビョウ	Sound=ビョー
+～	Type=Con	Read=カラ	Sound=カラ
+－	Type=Con	Read=－
+―	Type=Con	Read=―
+：	Type=Con	Read=：
+／	Type=Con	Read=／
+（	Type=Con	Read=（		Sound=（
+）	Type=Con	Read=）		Sound=）
+、	Type=Con	Read=、
+;;;"－"などの読み方制御
+ノ	Type=Con	Read=ノ	Sound=ノ	; 棒読みで"ノ"と読ます場合
+;ノ	Type=Con	Read=（	Sound=（	; 棒読みで休止とする場合
+
+;MAX=10
+[桁区切り]
+*;*;!〇-2J'、#3j/!〇-2J'、#3j+1u/;!％;*;
+*;*;!〇+4J'、#3j/!〇+4J'、#3j+1u/;!％;*;
+*;*;!〇#3j'、#3j/!〇#3J'、#3j+1u/;'票;*;
+*;*;!〇#3j'、〇〇〇/!〇#3J'、〇〇〇#1u/;*;*;
+*;*;!〇#1j#1u#1j'、#3j/!〇#1j#1u#1j'、#3j+1u/;!％;*;
+*;*;!０-3n'、#3n'、#3n/!０-3n'、#3n'、#3n+1u/!０-3n'、#3n/!０-3n'、#3n+1u/;@;*; ;;助数詞がある場合に限定
+
+;MAX=50
+[パターン]
+ドル．セント=*;*;n'．#2n;'＄;*;
+前置通貨='＄/'ＵＳ＄/'ＵＳＤ/'ＡＵＤ/'Ａ＄/'ＣＡＤ/'Ｃ＄/'Ｓ＄/'￥/'ＪＰＹ/'ＨＫＤ/'ＣＮＹ/;0;n'．#2n/n'．#1n/n/!０N'，#3n/!０N'，#3n'．n/!０-3n'，#3n'，#3n/;0/'札/;*; ;;接頭詞-数接続 で辞書登録が必要
+整数から整数=*;*;B'－B;'シーズン;*; ;シーズンは優先
+少数=*;*;!〇J'・J/!〇J'．J/!〇J'点J/!０N'．N/!０N'・N/;*;*;
+少数=*;*;'〇・J/'〇．J/'〇点J/'０．N/'０・N/;*;*;
+少数=*;*;N'．N'．N/;*;*; ;;version番号など
+桁区切り=*;*;!０N'，#3n'，#3n'．n/!０N'，#3n'．n/!０N'，#3n'．n+1u/;*;*; ;桁数追加
+桁区切り=*;*;!０N'，#3n'―!０N'，#3n/;*;*;
+桁区切り=*;*;!０-3n'，#3n'，#3n/!０-3n'，#3n'，#3n+1u/;*;*; ;;100,000,000
+桁区切り=*;*;!０-3n'，#3n'，#3n'，#3n;*;*; ;;100,000,000,000
+桁区切り=*;*;!０-3n'，#3n'，#3n'，#3n'，#3n;*;*; ;;100,000,000,000,000
+;桁区切り=*;*;!０#1n'，#3n'，#3n'，#3n'，#3n'，#3n;*;*; ;;1,000,000,000,000,000
+桁区切り=*;*;!０-3n'，#3n'，#3n'，#3n'，#3n'，#3n;*;*; ;;100,000,000,000,000,000
+桁区切り=*;*;!０-3n'，#3n'，#3n'，#3n'，#3n'，#3n'，#3n;*;*; ;;100,000,000,000,000,000,000 //1垓
+桁区切り=*;*;!０-3n'，#3n'，#3n'，#3n'，#3n'，#3n'，#3n'，#3n;*;*; ;;100,000,000,000,000,000,000,000 //1000垓
+桁区切り=*;*;!０N'，#3n/!０N'，#3n+1u/;*;*;
+コード='ＷＯ/'ＵＳ/;0;n'／n;0;0;	;分数読みと分離
+;真分数=*;*;!０n'／n/!〇j'／j/;'ドル/'％/'回/'羽/'秒/'個/'本/'馬身/'オンス/'イニング/'ガロン/'セント/;*;
+;真分数=0;*;!０n'／!０n/!〇j'／!○j/;'ドル/'％/'回/'羽/'秒/'個/'本/'馬身/'オンス/'イニング/'ガロン/'セント/'貫/;*;
+真分数=0;*;!０-Gn'／!０-Gn/!〇-Gj'／!○-Gj/;'ドル/'％/'回/'羽/'秒/'個/'本/'馬身/'オンス/'イニング/'ガロン/'セント/'貫/;*; ; 桁数制限　マイクロ向け
+真分数=*;*;!０#1n'／#1n/!〇#1j'／#1j/;'インチ/;*;
+電話='電話番号/'ＦＡＸ番号/'電話/'ＦＡＸ/'ＦＡＸ：/'ＴＥＬ/'ＴＥＬ：/'電話ＴＥＬ/;0;+4b/+1b'・*/+1b'―*/n'－n'－n/n'‐n'‐n/n'－n/n'‐n/;'番/0/;*;
+電話=*;*;'０N'（N'）N/'〇J'（J'）J/;*;*;
+電話=*;0;'１―８００/'１・８００/'１―８００*/'１・８００*/;'番/0/;*;
+コード='郵便番号/'〒/;0;#3b'―#2b/#3b'－#2b/#3b'―#4b/#3b'－#4b/#3b/;'番/0/;*;
+コード='口座番号/'特許番号/'特許/'特願/'特願平/'特開//'特開平/'特表/'特表平/'郵便振替/'口座/'郵便振替口座/;0;+4b/+4b*/;'番/0/;*;
+コード='預金「;0;N/J/;0;'」;
+時間=*;*;'０#1n;'日;*;
+棒読み='＊棒読み＊;0;n/;0;0;
+棒読みマル='＊棒読みマル＊;0;n/;0;0;
+棒読み=*;*;'０n'―*/'０n'・*/'０n'－*/'〇j'―*/'〇j'・*/;*;*;
+;棒読み=*;*;n―'０n'/n'・'０n/n'－'０n/n'―'〇j/n'・'〇j/;*;*;  ;;先頭数字の'*'は危険
+棒読み=*;*;n'―'０n/n'・'０n/n'－'０n/n'―'〇j/n'・'〇j/n'／'０n/;*;*;  ;;先頭数字の'*'は危険
+棒読み=0;0;'０B'―B'―*/'０B'．B'．*/'０B'・B'・*/'０B'－B'－*/;0;0;
+棒読み=0;0;B'―'０B'―*/B'．'０B'．*/B'・'０B'・*/B'－'０B'－*/;0;0;
+棒読み=0;0;B'―B'―'０*/B'．B'．'０*/B'・B'・'０*/B'－B'－'０*/;0;0;
+棒読み=*;*;'０N/'〇J/;*;*;
+;棒読み=*;*;n;*;*; ;数字の列は棒読み。テスト用
+棒読み=0;0;J/;0;'制;
+棒読み=*;*;'零j/'一零j/'二零j/'三零j/'四零j/'五零j/'六零j/'七零j/'八零j/'九零j/;*;*;
+整数=*;*;'数１０/'数１００/'数１０００/'数１０万/'数１００万/'何１０/'何１００/'何１０００/'何１０万/'何１００万/'幾１０/'幾１００/'幾１０００/'幾１０万/'幾１００万/;*;*; ;これだけ特別扱い
+棒読み=*;*;'数b/'数bB/b'数B/'数b'数B/'何b/'何bB/b'何B/'何b'何B/'幾b/'幾bB/b'幾B/'幾b'幾B/;*;*; ;「数１００数１０個」などの回避
+時間='＆時間よみ＆;*;-2n'：#2n'：#2n/#2n'：#2n/;'着/'発/'出発/'到着/0/;*; パターンの制限が甘いので時刻読み指定が要る
+時間=*;*;#1n'：０#1n/#1n'：１#1n/#1n'：２#1n/#1n'：３#1n/#1n'：４#1n/#1n'：５#1n/'０#1n'：０#1n/'０#1n'：１#1n/'０#1n'：２#1n/'０#1n'：３#1n/'０#1n'：４#1n/'０#1n'：５#1n/'１#1n'：０#1n/'１#1n'：１#1n/'１#1n'：２#1n/'１#1n'：３#1n/'１#1n'：４#1n/'１#1n'：５#1n/'２０：０#1n/'２０：１#1n/'２０：２#1n/'２０：３#1n/'２０：４#1n/'２０：５#1n/'２１：０#1n/'２１：１#1n/'２１：２#1n/'２１：３#1n/'２１：４#1n/'２１：５#1n/'２２：０#1n/'２２：１#1n/'２２：２#1n/'２２：３#1n/'２２：４#1n/'２２：５#1n/'２３：０#1n/'２３：１#1n/'２３：２#1n/'２３：３#1n/'２３：４#1n/'２３：５#1n/;'着/'発/'出発/'到着/'＆時間よみ＆/0/;*; ;助数詞がなくても良い場合は「0/」を追加。
+時間=*;*;N'秒N/J'秒J/;*;*;
+時間=*;*;J/n/b'／b/;'年/'月/'日/'時/'分/'秒/'期/;*;
+;日付=0;0;'２#3n'／０#1n'／０#1n/'２#3n'／１#1n'／０#1n/'１#3n'／０#1n'／０#1n/'１#3n'／１#1n'／０#1n/'２#3n'／０#1n'／１#1n/'２#3n'／１#1n'／１#1n/'１#3n'／０#1n'／１#1n/'１#3n'／１#1n'／１#1n/'２#3n'／０#1n'／２#1n/'２#3n'／１#1n'／２#1n/'１#3n'／０#1n'／２#1n/'１#3n'／１#1n'／２#1n/'２#3n'／０#1n'／３０/'２#3n'／１#1n'／３０/'１#3n'／０#1n'／３０/'１#3n'／１#1n'／３０/'２#3n'／０#1n'／３１/'２#3n'／１#1n'／３１/'１#3n'／０#1n'／３１/'１#3n'／１#1n'／３１/;0;0;
+;日付=0;0;'２#3n'／０#1n/'２#3n'／１#1n/'１#3n'／０#1n/'１#3n'／１#1n/;0;0;
+;;;時間帯=*;0;n'：#2n'～n'：#2n/;0;*; これは単独パターンではなく、時間の複合として扱う。
+英語='Ｖ/'ワースト/'ナンバー/'ベスト/'トップ/'フラット/;0;#1n/'１０/;0;*;
+英語=0;0;'１/;'ＤＫ/'ＬＤＫ/;*;
+英語=*;0;#1n/'１０/;'パット/'バーディー/'イーグル/'ボギー/'ダブルボギー/'トリプルボギー/;*;
+英語=*;0;#1n/'１０/;'オーバー/'ｏｖｅｒ/'アウト/'アンダー/'ｕｎｄｅｒ/'ドア/'バック/;*;
+;整数=*;*;!〇!０B/'０/'〇/'０#1u/'〇#1u/;*;*; ;;','の後にスペースがあると問題になる。ntEnd で十分
+少数=*;*;J'・J/J'．J/J'点J/N'．N/N'・N/;*;*;
+少数='打率/'出塁率/'長打率/;0;'．n;*;*;
+;整数vs整数=0;0;!．-2b!．'―!．-2b!．/!．-2b'－-2b!．/;0;'から/0/;
+整数vs整数=0;0;-2b'―-2b/-2b'－-2b/;0;'から/0/; ;; original
+整数vs整数=0;0;!０n'：!０#1n/;0;0;
+整数vs整数=0;0;J'対J/;0;0;
+整数vs整数=0;0;N'対N/;0;0;
+;少数から少数=*;*;'．n'―．n/'．n'－．n/'．n'～．n/;*;*; ;テスト用、trim問題解決後の候補
+少数から少数=*;*;n'．n'―n'．n/n'．n'－n'．n/n'．n'～n'．n/n'．n'～'０n/n'・n'―n'・n/n'・n'－n'・n/n'・n'～n'・n/;*;*; ;;original
+少数から少数=*;*;J'．J'―J'．J/J'．J'－J'．J/J'・J'―J'・J/J'・J'－J'・J/;*;*;
+少数から省略少数=*;*;n'．#4n'～#4n;'ドル/'＄/'ユーロ/'ＵＳＤ/'ＣＡＤ/'ＡＵＤ/'円/'フラン/;*; ;通貨に用いられる省略記法。「少数から整数」と競合するのでパターンは最小限に限定させる。
+少数から整数=*;*;n'．n'―n/n'．n'～n/n'・n'―n/n'．n'－n/n'・n'－n/;*;*;
+少数から整数=*;*;J'．J'―J/J'・J'―J/J'．J'－J/J'・J'－J/J'・J'～J/;*;*;
+整数から少数=*;*;N'―n'．N/N'―n'・N/N'－n'．N/N'－n'・N/N'～n'・N/N'～n'．N/;*;*;
+整数から少数=*;*;J'―J'．J/J'―J'・J/J'－J'．J/J'－J'・J/J'～J'・J/;*;*;
+番地ノ=0;0;B'ノB/B'ノB*/;*;0;
+番地=0;0;!０B'―!０B'―!０*/!０B'・!０B'・!０*/!０B'－!０B'－!０*/;0;0;
+番地=0;0;!０B'―!０*/!０B'・!０*/!０B'－!０*/;0;0;  ;;「!０B'．!０*/」は除く
+;整数から整数=*;*;B'―B/B'～B/B'－B/;*;*;  ;fujita コメント化
+;整数から整数=*;*;#1B'―#1B/#1B'－#1B/;'％/'年/;*;  ;助数詞限定
+整数から整数=*;*;B'―B/B'－B/;'％/'年/'日/'ｍ/'ｋｍ/'秒/'メートル/;*;  ;助数詞限定
+整数から整数=*;*;B'～B;*;*;  ;fujita パターン縮小
+整数から整数=*;*;!０B'－!０B/!０B'―!０B;@;*;
+株価よみ='＆株価よみ＆;*;n;'円;0;
+通貨よみ='＆ｅｘｃｈ＆;*;n;'円;0;
+通貨よみ２='＆ｅｘｃｈ２＆;*;n;'円;0;
+通貨よみ３='＆ｅｘｃｈ３＆;*;n;'円;0;
+通貨よみ４='＆ｅｘｃｈ４＆;*;n;'円;0;
+通貨よみ５='＆ｅｘｃｈ５＆;*;n;'円;0;
+通貨よみ一千='＆通貨よみ一千＆;*/'マイナス/;n;*;0;
+;少数=0;@;N;*;0;
+真分数=*;*;!０#1n'／!０-3n;*;*; ;助数詞がない場合、分子が１桁、分母が３桁以内の場合に限定
+;真分数=*;*;!０n'／!０n/!〇j'／!○j;*;*; 助数詞のない一般の分数はURLとかと競合するのでデフォルトでは使用しない。
+
+;Sign//前置助数詞を確実に取り出すため
+[符号]
+－	Read=マイナス	Sound=マイナス
+＋	Read=プラス	Sound=プラス
+±	Read=プラスマイナス	Sound=プラスマイナス
+プラス	Read=プラス	Sound=プラス
+プラスマイナス	Read=プラスマイナス	Sound=プラスマイナス
+マイナス	Read=マイナス	Sound=マイナス
+
+;Pre//読み方を区分するため
+[前置数助詞]
+〒
+ＴＥＬ
+ＴＥＬ：
+ＦＡＸ
+ＦＡＸ：
+ＦＡＸ番号
+電話
+電話番号
+電話ＴＥＬ
+番号
+口座
+口座番号
+郵便
+郵便番号
+郵便振替口座
+特許
+特許番号
+振替
+預金
+打率
+ＷＯ
+＊棒読み＊
+＆株価よみ＆
+＆ｅｘｃｈ＆
+＆ｅｘｃｈ１＆
+＆ｅｘｃｈ２＆
+＆ｅｘｃｈ３＆
+＆ｅｘｃｈ４＆
+＆ｅｘｃｈ５＆
+ＵＳ
+￥
+「
+＄
+;ＵＳ＄	;「記号」以外は「接頭詞-数接続」として登録すること, cabochaがchunk分離してしまい、別処理となることがあるため
+;英語読み
+Ｖ	Read=ブイ	;"１"-"１０"まで。
+ワースト	Read=ワースト	;"１"-"１０"まで。
+トップ	Read=トップ	;"３"，"１０"のみ対応
+ナンバー	Read=ナンバー	;"１"-"１０"まで。"マジック"の場合は外す
+ベスト	Read=ベスト	;"１"-"１０"まで
+;マジック	Read=マジック	;マジックナンバーは日本語読み
+フラット	Read=フラット	;"１"-"１０"まで。
+
+;Aux
+[助数詞]
+Ｒ	Read=アール	Sound=アール	Tn=AA\	Tw=	Tl=C1	//
+;ａ	Read=アール	Sound=アール	Tn=AA\	Tw=	Tl=C1	//
+ａ	Read=エー	Sound=エー	Tn=AA\	Tw=	Tl=C1	//
+アール	Read=アール	Sound=アール	Tn=AA\	Tw=	Tl=C1	//
+㌃	Read=アール	Sound=アール	Tn=AA\	Tw=	Tl=C1	//
+アイテム	Read=アイテム	Sound=アイテム	Tn=AA\	Tw=	Tl=C1	//
+アウト	Read=アウト	Sound=アウト	Tn=AA\	Tw=	Tl=C1	//
+アフガニ	Read=アフガニ	Sound=アフガニ	Tn=AA\	Tw=	Tl=C1	//
+安打	Read=アンダ	Sound=アンダ	Tn=AA\	Tw=	Tl=C2	//
+アンダー	Read=アンダー	Sound=アンダー	Tn=QA\	Tw=	Tl=C1	//
+ｕｎｄｅｒ	Read=アンダー	Sound=アンダー	Tn=QA\	Tw=	Tl=C2	//
+;Ａ	Read=アンペア	Sound=アンペア	Tn=AA\	Tw=	Tl=C1	//Tl:C1(ア'ンペア)もあり ;あまり使わなく危険なのでコメント化
+アンペア	Read=アンペア	Sound=アンペア	Tn=AA\	Tw=	Tl=C1	//Tl:C1(ア'ンペア)もあり
+位	Read=イ	Sound=イ	Tn=AAA	Tw=	Tl=C3	//
+イーグル	Read=イーグル	Sound=イーグル	Tn=QA\	Tw=	Tl=C1	//
+ＥＣドル	Read=イーシードル	Sound=イーシードル	Tn=AA\	Tw=	Tl=C1	//
+ＥＣ＄	Read=イーシードル	Sound=イーシードル	Tn=AA\	Tw=	Tl=C1	//
+ＵＳドル	Read=ユーエスドル	Sound=ユーエスドル	Tn=AA\	Tw=	Tl=C1	//
+ＵＳＤ	Read=ユーエスドル	Sound=ユーエスドル	Tn=AA\	Tw=	Tl=C1	//
+ＵＳ＄	Read=ユーエスドル	Sound=ユーエスドル	Tn=AA\	Tw=	Tl=C1	//
+家	Read=イエ	Sound=イエ	Tn=AAA	Tw=AAA	Tl=C3	//
+イギリスポンド	Read=イギリスポンド	Sound=イギリスポンド	Tn=AA\	Tw=	Tl=C1	//
+英ポンド	Read=イギリスポンド	Sound=イギリスポンド	Tn=AA\	Tw=	Tl=C1	//
+ＧＢＰ	Read=イギリスポンド	Sound=イギリスポンド	Tn=AA\	Tw=	Tl=C1	//
+イニング	Read=イニング	Sound=イニング	Tn=AA\	Tw=	Tl=C1	//
+インチ	Read=インチ	Sound=インチ	Tn=AA\	Tw=	Tl=C1	//
+インドルピー	Read=インドルピー	Sound=インドルピー	Tn=AA\	Tw=	Tl=C1	//
+ウォン	Read=ウォン	Sound=ウォン	Tn=AA\	Tw=	Tl=C1	//
+ウオン	Read=ウオン	Sound=ウオン	Tn=AA\	Tw=	Tl=C1	//
+エーカー	Read=エーカー	Sound=エーカー	Tn=AAA	Tw=	Tl=C1	//
+駅	Read=エキ	Sound=エキ	Tn=AAA	Tw=AAA	Tl=C3	//
+エクスード	Read=エクスード	Sound=エクスード	Tn=AA\	Tw=	Tl=C1	//
+Ｓ	Read=エス	Sound=エス	Tn=AAA	Tw=	Tl=C1	//
+エスクード	Read=エスクード	Sound=エスクード	Tn=AA\	Tw=	Tl=C1	//
+ＳＤＲ	Read=エスディーアール	Sound=エスディーアール	Tn=AA\	Tw=	Tl=C1	//
+Ｆ	Read=エフ	Sound=エフ	Tn=AAA	Tw=	Tl=C1	//
+ＬＤＫ	Read=エルディーケイ	Sound=エルディーケー	Tn=AA\	Tw=	Tl=C1	//
+えん	Read=エン	Sound=エン	Tn=BAG	Tw=	Tl=C3	//
+円	Read=エン	Sound=エン	Tn=BAG	Tw=	Tl=C3	//
+;円	Read=エン	Sound=エン	Tn=BAA	Tw=	Tl=C3	//
+ＪＰＹ	Read=エン	Sound=エン	Tn=BAG	Tw=	Tl=C3	//
+￥	Read=エン	Sound=エン	Tn=BAG	Tw=	Tl=C3	//
+株円	Read=エン	Sound=エン	Tn=AAG	Tw=	Tl=C3	//
+円台	Read=エンダイ	Sound=エンダイ	Tn=BAA	Tw=	Tl=C2	//
+園	Read=エン	Sound=エン	Tn=AAA	Tw=	Tl=C3	//
+往復	Read=オウフク	Sound=オーフク	Tn=AAA	Tw=	Tl=C2	//
+オーストラリアドル	Read=オーストラリアドル	Sound=オーストラリアドル	Tn=AA\	Tw=	Tl=C1	//
+ＡＵＤ	Read=オーストラリアドル	Sound=オーストラリアドル	Tn=AA\	Tw=	Tl=C1	//
+Ａ＄	Read=オーストラリアドル	Sound=オーストラリアドル	Tn=AA\	Tw=	Tl=C1	//
+オーバー	Read=オーバー	Sound=オーバー	Tn=QA\	Tw=	Tl=C1	//
+ｏｖｅｒ	Read=オーバー	Sound=オーバー	Tn=QA\	Tw=	Tl=C2	//
+Ω	Read=オーム	Sound=オーム	Tn=AA\	Tw=	Tl=C1	//
+オーム	Read=オーム	Sound=オーム	Tn=AA\	Tw=	Tl=C1	//
+億	Read=オク	Sound=オク	Tn=AAA	Tw=	Tl=C3	//
+オクターブ	Read=オクターブ	Sound=オクターブ	Tn=AA\	Tw=	Tl=C1	//
+Å	Read=オングストローム	Sound=オングストローム	Tn=AA\	Tw=	Tl=C1	//
+オングストローム	Read=オングストローム	Sound=オングストローム	Tn=AA\	Tw=	Tl=C1	//
+オンス	Read=オンス	Sound=オンス	Tn=AA\	Tw=	Tl=C1	//
+価	Read=カ	Sound=カ	Tn=LAA	Tw=	Tl=C3	//
+課	Read=カ	Sound=カ	Tn=LAA	Tw=	Tl=C3	//
+カートン	Read=カートン	Sound=カートン	Tn=IA\	Tw=	Tl=C1	//
+回	Read=カイ	Sound=カイ	Tn=LAE	Tw=	Tl=C3	//
+階	Read=カイ	Sound=カイ	Tn=LFA	Tw=	Tl=C4	//
+階層	Read=カイソウウ	Sound=カイソー	Tn=LFA	Tw=	Tl=C1	//
+階級	Read=カイキュウ	Sound=カイキュウ	Tn=LFA	Tw=	Tl=C1	//
+回忌	Read=カイキ	Sound=カイキ	Tn=MAA	Tw=	Tl=C1	//
+会場	Read=カイジョウ	Sound=カイジョー	Tn=IAA	Tw=	Tl=C2	//
+回生	Read=カイセイ	Sound=カイセイ	Tn=LAA	Tw=	Tl=C2	//
+回戦	Read=カイセン	Sound=カイセン	Tn=GAA	Tw=	Tl=C1	//
+回線	Read=カイセン	Sound=カイセン	Tn=IAA	Tw=	Tl=C2	//
+回転	Read=カイテン	Sound=カイテン	Tn=GAA	Tw=	Tl=C2	//
+会派	Read=カイハ	Sound=カイハ	Tn=KAA	Tw=	Tl=C1	//
+回分	Read=カイブン	Sound=カイブン	Tn=LAA	Tw=	Tl=C4a	//
+カイリ	Read=カイリ	Sound=カイリ	Tn=IAA	Tw=	Tl=C1	//
+海里	Read=カイリ	Sound=カイリ	Tn=IAA	Tw=	Tl=C1	//
+浬	Read=カイリ	Sound=カイリ	Tn=IAA	Tw=	Tl=C1	//
+画	Read=カク	Sound=カク	Tn=LAU	Tw=	Tl=C3	//
+角	Read=カク	Sound=カク	Tn=GAF	Tw=	Tl=C3	//
+学年	Read=ガクネン	Sound=ガクネン	Tn=AAA	Tw=	Tl=C2	//
+学部	Read=ガクブ	Sound=ガクブ	Tn=AAA	Tw=	Tl=C2	//
+かけ	Read=カケ	Sound=カケ	Tn=LAA	Tw=LAA	Tl=C3	//
+ヵ月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+カ月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+か月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+ヶ月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+ケ月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+箇月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+個月	Read=カゲツ	Sound=カゲツ	Tn=LAA	Tw=	Tl=C1	//
+ヵ国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+か国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+カ国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+ヶ国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+ケ国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+箇国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+個国	Read=カコク	Sound=カコク	Tn=LAA	Tw=	Tl=C1	//
+重ね	Read=カサネ	Sound=カサネ	Tn=APA	Tw=APA	Tl=C2	//
+カ寺	Read=カジ	Sound=カジ	Tn=LAA	Tw=	Tl=C1	//
+ヵ所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+か所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+カ所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+ヶ所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+ケ所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+箇所	Read=カショ	Sound=カショ	Tn=LAA	Tw=	Tl=C1	//
+ヵ条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+か条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+カ条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+ヶ条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+ケ条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+箇条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+個条	Read=カジョウ	Sound=カジョー	Tn=LAA	Tw=	Tl=C2	//
+画素	Read=ガソ	Sound=ガソ	Tn=AAA	Tw=	Tl=C1	//
+家族	Read=カゾク	Sound=カゾク	Tn=IAA	Tw=	Tl=C1	//
+ヵ村	Read=カソン	Sound=カソン	Tn=LAA	Tw=	Tl=C1	//
+か村	Read=カソン	Sound=カソン	Tn=LAA	Tw=	Tl=C1	//
+カ村	Read=カソン	Sound=カソン	Tn=LAA	Tw=	Tl=C1	//
+ヶ村	Read=カソン	Sound=カソン	Tn=LAA	Tw=	Tl=C1	//
+ケ村	Read=カソン	Sound=カソン	Tn=LAA	Tw=	Tl=C1	//
+型	Read=ガタ	Sound=ガタ	Tn=AAA	Tw=	Tl=C4	//
+月	Read=ガツ	Sound=ガツ	Tn=EAL	Tw=	Tl=C3	//
+;月	Read=ガツ	Sound=ガツ	Tn=PAL	Tw=	Tl=C3	//
+カ店	Read=カテン	Sound=カテン	Tn=LAA	Tw=	Tl=C1	//
+カナダドル	Read=カナダドル	Sound=カナダドル	Tn=KA\	Tw=	Tl=C1	//
+カナダ＄	Read=カナダドル	Sound=カナダドル	Tn=KA\	Tw=	Tl=C1	//
+加ドル	Read=カナダドル	Sound=カナダドル	Tn=KA\	Tw=	Tl=C1	//
+ＣＡＮ＄	Read=カナダドル	Sound=カナダドル	Tn=KA\	Tw=	Tl=C1	//
+Ｃ＄	Read=カナダドル	Sound=カナダドル	Tn=KA\	Tw=	Tl=C1	//
+ヵ年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+カ年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+か年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+ヶ年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+ケ年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+箇年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+個年	Read=カネン	Sound=カネン	Tn=LAA	Tw=	Tl=C1	//
+株	Read=カブ	Sound=カブ	Tn=IAA	Tw=IAA	Tl=C3	//
+カラット	Read=カラット	Sound=カラット	Tn=KA\	Tw=	Tl=C1	//Tl:C1(カ'ラット)もあり
+ｃａｌ	Read=カロリー	Sound=カロリー	Tn=KAA	Tw=	Tl=C1	//
+カロリー	Read=カロリー	Sound=カロリー	Tn=KA\	Tw=	Tl=C1	//
+㌍	Read=カロリー	Sound=カロリー	Tn=KA\	Tw=	Tl=C1	//
+ガロン	Read=ガロン	Sound=ガロン	Tn=AA\	Tw=	Tl=C1	//
+冠	Read=カン	Sound=カン	Tn=GAA	Tw=	Tl=C4	//
+;巻	Read=カン	Sound=カン	Tn=LAE	Tw=	Tl=C3	//
+巻	Read=カン	Sound=カン	Tn=LAA	Tw=	Tl=C3	//
+缶	Read=カン	Sound=カン	Tn=LAA	Tw=LAA	Tl=C3	//
+貫	Read=カン	Sound=カン	Tn=LFE	Tw=	Tl=C3	//
+館	Read=カン	Sound=カン	Tn=GAA	Tw=	Tl=C3	//
+韓国ウォン	Read=カンコクウォン	Sound=カンコクウォン	Tn=AA\	Tw=	Tl=C1	//
+ＫＲＷ	Read=カンコクウォン	Sound=カンコクウォン	Tn=AA\	Tw=	Tl=C1	//
+管区	Read=カンク	Sound=カンク	Tn=KAA	Tw=	Tl=C1	//
+カンデラ	Read=カンデラ	Sound=カンデラ	Tn=KAA	Tw=	Tl=C1	//
+貫目	Read=カンメ	Sound=カンメ	Tn=LFO	Tw=	Tl=C2	//
+基	Read=キ	Sound=キ	Tn=LAA	Tw=	Tl=C3	//
+期	Read=キ	Sound=キ	Tn=LAA	Tw=	Tl=C3	//
+機	Read=キ	Sound=キ	Tn=LAA	Tw=	Tl=C3	//
+季	Read=キ	Sound=キ	Tn=LAA	Tw=	Tl=C3	//
+騎	Read=キ	Sound=キ	Tn=LAA	Tw=	Tl=C3	//
+義	Read=ギ	Sound=ギ	Tn=BAA	Tw=	Tl=C3	//
+気圧	Read=キアツ	Sound=キアツ	Tn=IAA	Tw=	Tl=C2	//
+Ｇ	Read=ギガ	Sound=ギガ	Tn=AA\	Tw=	Tl=C1	//
+ギガ	Read=ギガ	Sound=ギガ	Tn=AA\	Tw=	Tl=C1	//
+ＧＢ	Read=ギガバイト	Sound=ギガバイト	Tn=AA\	Tw=	Tl=C1	//
+Ｇバイト	Read=ギガバイト	Sound=ギガバイト	Tn=AA\	Tw=	Tl=C1	//
+ギガバイト	Read=ギガバイト	Sound=ギガバイト	Tn=AA\	Tw=	Tl=C1	//
+機関	Read=キカン	Sound=キカン	Tn=KAA	Tw=	Tl=C1	//
+企業	Read=キギョウ	Sound=キギョー	Tn=GAA	Tw=	Tl=C1	//
+機種	Read=キシュ	Sound=キシュ	Tn=IAA	Tw=	Tl=C1	//
+期生	Read=キセイ	Sound=キセー	Tn=GAA	Tw=	Tl=C1	//
+議案	Read=ギアン	Sound=ギアン	Tn=AAA	Tw=	Tl=C2	//
+議席	Read=ギセキ	Sound=ギセキ	Tn=AAA	Tw=	Tl=C2	//
+気筒	Read=キトウ	Sound=キトー	Tn=GAA	Tw=	Tl=C2	//
+客	Read=キャク	Sound=キャク	Tn=LAP	Tw=	Tl=C3	//
+脚	Read=キャク	Sound=キャク	Tn=LAH	Tw=	Tl=C3	//
+球	Read=キュウ	Sound=キュー	Tn=LAA	Tw=	Tl=C4	//
+級	Read=キュウ	Sound=キュー	Tn=LAA	Tw=	Tl=C4	//
+球団	Read=キュウダン	Sound=キューダン	Tn=LAA	Tw=	Tl=C2	//
+キュリー	Read=キュリー	Sound=キュリー	Tn=IA\	Tw=	Tl=C1	//
+強	Read=キョウ	Sound=キョー	Tn=GAA	Tw=	Tl=C4	//
+橋	Read=キョウ	Sound=キョー	Tn=GAA	Tw=	Tl=C4	//
+行	Read=ギョウ	Sound=ギョー	Tn=AAA	Tw=	Tl=C3	//
+業者	Read=ギョウシャ	Sound=ギョーシャ	Tn=AAA	Tw=	Tl=C1	//
+業種	Read=ギョウシュ	Sound=ギョーシュ	Tn=AAA	Tw=	Tl=C1	//Tl:C2(平板型）もあり
+兄弟	Read=キョウダイ	Sound=キョーダイ	Tn=KAA	Tw=	Tl=C1	//
+局	Read=キョク	Sound=キョク	Tn=LAH	Tw=	Tl=C3	//
+曲	Read=キョク	Sound=キョク	Tn=LAH	Tw=	Tl=C3	//
+極	Read=キョク	Sound=キョク	Tn=LAH	Tw=	Tl=C3	//
+拠点	Read=キョテン	Sound=キョテン	Tn=IAA	Tw=	Tl=C2	//
+曲目	Read=キョクメ	Sound=キョクメ	Tn=LAH	Tw=	Tl=C4	//
+ギルダー	Read=ギルダー	Sound=ギルダー	Tn=AA\	Tw=	Tl=C1	//
+切れ	Read=キレ	Sound=キレ	Tn=LAA	Tw=LAA	Tl=C3	//
+Ｋ	Read=キロ	Sound=キロ	Tn=IAA	Tw=	Tl=C3	//
+キロ	Read=キロ	Sound=キロ	Tn=IAA	Tw=	Tl=C3	//
+㌔	Read=キロ	Sound=キロ	Tn=IAA	Tw=	Tl=C3	//
+キロカロリー	Read=キロカロリー	Sound=キロカロリー	Tn=IA\	Tw=	Tl=C1	//
+ｋｇ	Read=キログラム	Sound=キログラム	Tn=IA\	Tw=	Tl=C1	//
+ｋグラム	Read=キログラム	Sound=キログラム	Tn=IA\	Tw=	Tl=C1	//
+キログラム	Read=キログラム	Sound=キログラム	Tn=IA\	Tw=	Tl=C1	//
+㎏	Read=キログラム	Sound=キログラム	Tn=IA\	Tw=	Tl=C1	//
+ｋｔ	Read=キロトン	Sound=キロトン	Tn=IA\	Tw=	Tl=C1	//
+キロトン	Read=キロトン	Sound=キロトン	Tn=IA\	Tw=	Tl=C1	//
+ｋｂ	Read=キロバイト	Sound=キロバイト	Tn=IA\	Tw=	Tl=C1	//
+ｋバイト	Read=キロバイト	Sound=キロバイト	Tn=IA\	Tw=	Tl=C1	//
+キロバイト	Read=キロバイト	Sound=キロバイト	Tn=IA\	Tw=	Tl=C1	//
+ｋｈｚ	Read=キロヘルツ	Sound=キロヘルツ	Tn=IA\	Tw=	Tl=C1	//
+ｋＨｚ	Read=キロヘルツ	Sound=キロヘルツ	Tn=IA\	Tw=	Tl=C1	//
+ｋヘルツ	Read=キロヘルツ	Sound=キロヘルツ	Tn=IA\	Tw=	Tl=C1	//
+キロヘルツ	Read=キロヘルツ	Sound=キロヘルツ	Tn=IA\	Tw=	Tl=C1	//
+ｋｍ	Read=キロメートル	Sound=キロメートル	Tn=IA\	Tw=	Tl=C1	//
+;ｋｍ	Read=キロ	Sound=キロ	Tn=IA\	Tw=	Tl=C3	//
+;．５ｋｍ	Read=キロハン	Sound=キロハン	Tn=IA\	Tw=	Tl=C1	//
+ｋメートル	Read=キロメートル	Sound=キロメートル	Tn=IA\	Tw=	Tl=C1	//
+キロメートル	Read=キロメートル	Sound=キロメートル	Tn=IA\	Tw=	Tl=C1	//
+㎞	Read=キロメートル	Sound=キロメートル	Tn=IA\	Tw=	Tl=C1	//
+粁	Read=キロメートル	Sound=キロメートル	Tn=IA\	Tw=	Tl=C1	//
+ｋｌ	Read=キロリットル	Sound=キロリットル	Tn=IA\	Tw=	Tl=C1	//
+ｋリットル	Read=キロリットル	Sound=キロリットル	Tn=IA\	Tw=	Tl=C1	//
+キロリットル	Read=キロリットル	Sound=キロリットル	Tn=IA\	Tw=	Tl=C1	//
+ｋｗ	Read=キロワット	Sound=キロワット	Tn=IA\	Tw=	Tl=C1	//
+ｋワット	Read=キロワット	Sound=キロワット	Tn=IA\	Tw=	Tl=C1	//
+キロワット	Read=キロワット	Sound=キロワット	Tn=IA\	Tw=	Tl=C1	//
+キロワット時	Read=キロワットジ	Sound=キロワットジ	Tn=IA\	Tw=	Tl=C1	//
+斤	Read=キン	Sound=キン	Tn=LAA	Tw=	Tl=C3	//
+均	Read=キン	Sound=キン	Tn=LAA	Tw=	Tl=C4	//
+金	Read=キン	Sound=キン	Tn=LAA	Tw=	Tl=C4	//
+銀行	Read=ギンコウ	Sound=ギンコー	Tn=AA\	Tw=	Tl=C2	//
+句	Read=ク	Sound=ク	Tn=GAA	Tw=	Tl=C3	//
+区	Read=ク	Sound=ク	Tn=LAA	Tw=	Tl=C3	//
+躯	Read=ク	Sound=ク	Tn=GAA	Tw=	Tl=C3	//
+グァラニ	Read=グァラニ	Sound=グァラニ	Tn=AA\	Tw=	Tl=C1	//
+区画	Read=クカク	Sound=クカク	Tn=IAA	Tw=	Tl=C2	//
+区間	Read=クカン	Sound=クカン	Tn=IAA	Tw=	Tl=C2	//
+くだり	Read=クダリ	Sound=クダリ	Tn=IAA	Tw=IAA	Tl=C2	//Ti:和語読み時例外あり？（三くだり→ミクダリ）
+口	Read=クチ	Sound=クチ	Tn=GAS	Tw=GAS	Tl=C3	//
+クナ	Read=クナ	Sound=クナ	Tn=IA\	Tw=	Tl=C3	//
+組	Read=クミ	Sound=クミ	Tn=IAA	Tw=IAA	Tl=C3	//Ti:○年○組の場合は一,ニ→イチクミ,ニクミ
+組合	Read=クミアイ	Sound=クミアイ	Tn=IAA	Tw=	Tl=C2	//
+クラス	Read=クラス	Sound=クラス	Tn=IA\	Tw=IAA	Tl=C1	//
+ｇ	Read=グラム	Sound=グラム	Tn=AA\	Tw=	Tl=C1	//
+グラム	Read=グラム	Sound=グラム	Tn=AA\	Tw=	Tl=C1	//
+㌘	Read=グラム	Sound=グラム	Tn=AA\	Tw=	Tl=C1	//
+グループ	Read=グループ	Sound=グループ	Tn=AA\	Tw=	Tl=C1	//
+グルデ	Read=グルデ	Sound=グルデ	Tn=AA\	Tw=	Tl=C1	//
+クローナ	Read=クローナ	Sound=クローナ	Tn=IA\	Tw=	Tl=C1	//
+クローネ	Read=クローネ	Sound=クローネ	Tn=IA\	Tw=	Tl=C1	//
+クローン	Read=クローン	Sound=クローン	Tn=IA\	Tw=	Tl=C1	//
+クワンザ	Read=クワンザ	Sound=クワンザ	Tn=IA\	Tw=	Tl=C1	//
+計	Read=ケイ	Sound=ケー	Tn=LAA	Tw=	Tl=C2	//
+系列	Read=ケイレツ	Sound=ケーレツ	Tn=LAA	Tw=	Tl=C2	//
+ケース	Read=ケース	Sound=ケース	Tn=IA\	Tw=	Tl=C1	//
+ゲーム	Read=ゲーム	Sound=ゲーム	Tn=AA\	Tw=	Tl=C1	//
+けた	Read=ケタ	Sound=ケタ	Tn=IAA	Tw=IAA	Tl=C3	//
+ケタ	Read=ケタ	Sound=ケタ	Tn=IAA	Tw=IAA	Tl=C3	//
+桁	Read=ケタ	Sound=ケタ	Tn=IAA	Tw=IAA	Tl=C3	//
+ケツァル	Read=ケツァル	Sound=ケツァル	Tn=IA\	Tw=	Tl=C1	//
+Ｋｓｈ	Read=ケニアシリング	Sound=ケニアシリング	Tn=KA\	Tw=	Tl=C1	//
+間	Read=ケン	Sound=ケン	Tn=LFA	Tw=	Tl=C3	//
+件	Read=ケン	Sound=ケン	Tn=LAA	Tw=	Tl=C3	//
+県	Read=ケン	Sound=ケン	Tn=LAA	Tw=	Tl=C3	//
+軒	Read=ケン	Sound=ケン	Tn=LEA	Tw=	Tl=C3	//
+元	Read=ゲン	Sound=ゲン	Tn=AAA	Tw=	Tl=C3	//
+弦	Read=ゲン	Sound=ゲン	Tn=AAA	Tw=	Tl=C4	//
+限	Read=ゲン	Sound=ゲン	Tn=BAD	Tw=	Tl=C3	//
+限月	Read=ゲンゲツ	Sound=ゲンゲツ	Tn=AAA	Tw=	Tl=C2	//
+個	Read=コ	Sound=コ	Tn=LAA	Tw=	Tl=C3	//
+ヶ	Read=コ	Sound=コ	Tn=LAA	Tw=	Tl=C3	//
+戸	Read=コ	Sound=コ	Tn=LAA	Tw=	Tl=C3	//
+湖	Read=コ	Sound=コ	Tn=LAA	Tw=	Tl=C3	//
+語	Read=ゴ	Sound=ゴ	Tn=AAA	Tw=	Tl=C3	//
+校	Read=コウ	Sound=コー	Tn=LAA	Tw=	Tl=C3	//
+港	Read=コウ	Sound=コー	Tn=LAA	Tw=	Tl=C3	//
+項	Read=コウ	Sound=コー	Tn=LAA	Tw=	Tl=C3	//
+号	Read=ゴウ	Sound=ゴー	Tn=AAA	Tw=	Tl=C3	//
+合	Read=ゴウ	Sound=ゴー	Tn=AAX	Tw=	Tl=C3	//
+豪	Read=ゴウ	Sound=ゴー	Tn=AAA	Tw=	Tl=C3	//
+号館	Read=ゴウカン	Sound=ゴーカン	Tn=AAA	Tw=	Tl=C1	//
+号機	Read=ゴウキ	Sound=ゴーキ	Tn=AAA	Tw=	Tl=C1	//
+口座	Read=コウザ	Sound=コーザ	Tn=IAA	Tw=	Tl=C2	//
+号室	Read=ゴウシツ	Sound=ゴーシツ	Tn=AAA	Tw=	Tl=C1	//
+工場	Read=コウジョウ	Sound=コージョー	Tn=IAN	Tw=	Tl=C1	//
+号証	Read=ゴウショウ	Sound=ゴーショー	Tn=AAA	Tw=	Tl=C4a	//
+号線	Read=ゴウセン	Sound=ゴーセン	Tn=AAA	Tw=	Tl=C4a	//
+交代	Read=コウタイ	Sound=コータイ	Tn=KAA	Tw=	Tl=C2	//
+号棟	Read=ゴウトウ	Sound=ゴートー	Tn=AAA	Tw=	Tl=C1	//
+光年	Read=コウネン	Sound=コーネン	Tn=IAA	Tw=	Tl=C1	//Tl:C2(平板型）もあり
+項目	Read=コウモク	Sound=コーモク	Tn=IAA	Tw=	Tl=C2	//
+コース	Read=コース	Sound=コース	Tn=IA\	Tw=	Tl=C1	//
+コーナー	Read=コーナー	Sound=コーナー	Tn=IA\	Tw=	Tl=C1	//
+ゴール	Read=ゴール	Sound=ゴール	Tn=AA\	Tw=	Tl=C1	//
+国	Read=コク	Sound=コク	Tn=LAU	Tw=	Tl=C3	//
+石	Read=コク	Sound=コク	Tn=LAH	Tw=	Tl=C3	//
+個口	Read=コグチ	Sound=コグチ	Tn=LAA	Tw=	Tl=C1	//
+言	Read=コト	Sound=コト	Tn=LAA	Tw=LAA	Tl=C3	//
+コマ	Read=コマ	Sound=コマ	Tn=LAA	Tw=LAA	Tl=C3	//
+コルナ	Read=コルナ	Sound=コルナ	Tn=IA\	Tw=	Tl=C1	//
+コロン	Read=コロン	Sound=コロン	Tn=IA\	Tw=	Tl=C1	//
+;差	Read=サ	Sound=サ	Tn=KAA	Tw=	Tl=C3	//
+才	Read=サイ	Sound=サイ	Tn=HAA	Tw=	Tl=C3	//
+歳	Read=サイ	Sound=サイ	Tn=HAA	Tw=	Tl=C3	//
+サイクル	Read=サイクル	Sound=サイクル	Tn=KA\	Tw=	Tl=C1	//
+歳児	Read=サイジ	Sound=サイジ	Tn=HAA	Tw=	Tl=C1	//
+サイズ	Read=サイズ	Sound=サイズ	Tn=KA\	Tw=	Tl=C1	//
+竿	Read=サオ	Sound=サオ	Tn=JAA	Tw=JAA	Tl=C3	//
+棹	Read=サオ	Sound=サオ	Tn=JAA	Tw=JAA	Tl=C3	//
+作	Read=サク	Sound=サク	Tn=HAH	Tw=	Tl=C3	//
+作品	Read=サクヒン	Sound=サクヒン	Tn=KAA	Tw=	Tl=C2	//
+差し	Read=サシ	Sound=サシ	Tn=KAA	Tw=KAA	Tl=C3	//
+差	Read=サシ	Sound=サシ	Tn=KAA	Tw=KAA	Tl=C3	//
+冊	Read=サツ	Sound=サツ	Tn=HAH	Tw=	Tl=C3	//
+刷	Read=サツ	Sound=サツ	Tn=HAH	Tw=	Tl=C3	//
+札	Read=サツ	Sound=サツ	Tn=HAH	Tw=	Tl=C3	//
+サティアン	Read=サティアン	Sound=サティアン	Tn=KA\	Tw=	Tl=C1	//
+皿	Read=サラ	Sound=サラ	Tn=JAA	Tw=JAA	Tl=C3	//
+三振	Read=サンシン	Sound=サンシン	Tn=KA\	Tw=	Tl=C2	//
+サンチーム	Read=サンチーム	Sound=サンチーム	Tn=KA\	Tw=	Tl=C1	//
+子	Read=シ	Sound=シ	Tn=JAA	Tw=	Tl=C3	//
+視	Read=シ	Sound=シ	Tn=JAA	Tw=	Tl=C3	//
+市	Read=シ	Sound=シ	Tn=HAA	Tw=	Tl=C3	//
+氏	Read=シ	Sound=シ	Tn=JAA	Tw=	Tl=C3	//
+児	Read=ジ	Sound=ジ	Tn=BAA	Tw=	Tl=C3	//
+字	Read=ジ	Sound=ジ	Tn=BAA	Tw=	Tl=C3	//
+時	Read=ジ	Sound=ジ	Tn=CAA	Tw=	Tl=C3	//
+;：	Read=ジ	Sound=ジ	Tn=CAA	Tw=	Tl=C3	// 位取りにする
+次	Read=ジ	Sound=ジ	Tn=BAA	Tw=	Tl=C3	//
+試合	Read=シアイ	Sound=シアイ	Tn=HAA	Tw=	Tl=C2	//
+Ｃ	Read=シー	Sound=シー	Tn=KA\	Tw=	Tl=C1	//
+ＣＦＡフラン	Read=シーエフエーフラン	Sound=シーエフエーフラン	Tn=KA\	Tw=	Tl=C1	//
+ＣＦＰフラン	Read=シーエフピーフラン	Sound=シーエフピーフラン	Tn=KA\	Tw=	Tl=C1	//
+ｃｃ	Read=シーシー	Sound=シーシー	Tn=KA\	Tw=	Tl=C1	//
+ＣＣ	Read=シーシー	Sound=シーシー	Tn=KA\	Tw=	Tl=C1	//
+シーシー	Read=シーシー	Sound=シーシー	Tn=KA\	Tw=	Tl=C1	//
+㏄	Read=シーシー	Sound=シーシー	Tn=KA\	Tw=	Tl=C1	//
+シーズン	Read=シーズン	Sound=シーズン	Tn=KA\	Tw=	Tl=C1	//
+シート	Read=シート	Sound=シート	Tn=KA\	Tw=	Tl=C1	//
+シード	Read=シード	Sound=シード	Tn=KA\	Tw=	Tl=C1	//
+シーベルト	Read=シーベルト	Sound=シーベルト	Tn=AA\	Tw=	Tl=C1	//
+シェケル	Read=シェケル	Sound=シェケル	Tn=HA\	Tw=	Tl=C1	//
+時間	Read=ジカン	Sound=ジカン	Tn=CA\	Tw=	Tl=C1	//
+式	Read=シキ	Sound=シキ	Tn=HAH	Tw=	Tl=C3	//
+四球	Read=シキュウ	Sound=シキュー	Tn=KA\	Tw=	Tl=C2	//
+事業	Read=ジギョウ	Sound=ジギョー	Tn=AA\	Tw=	Tl=C1	//
+軸	Read=ジク	Sound=ジク	Tn=AAA	Tw=	Tl=C3	//
+時限	Read=ジゲン	Sound=ジゲン	Tn=CAA	Tw=	Tl=C2	//
+次元	Read=ジゲン	Sound=ジゲン	Tn=CA\	Tw=	Tl=C2	//
+システム	Read=システム	Sound=システム	Tn=KA\	Tw=	Tl=C1	//
+施設	Read=シセツ	Sound=シセツ	Tn=KA\	Tw=	Tl=C1	//
+;市町	Read=シチョウ	Sound=シチョー	Tn=KAA	Tw=	Tl=C1	//
+市町	Read=シチョウ	Sound=シチョー	Tn=AA\	Tw=	Tl=C1	//
+;市町村	Read=シチョウソン	Sound=シチョーソン	Tn=KAA	Tw=	Tl=C1	//
+市町村	Read=シチョウソン	Sound=シチョーソン	Tn=AA\	Tw=	Tl=C1	//
+室	Read=シツ	Sound=シツ	Tn=HAH	Tw=	Tl=C3	//
+失	Read=シツ	Sound=シツ	Tn=HAH	Tw=	Tl=C3	//
+失点	Read=シッテン	Sound=シッテン	Tn=KA\	Tw=	Tl=C2	//
+字詰め	Read=ジヅメ	Sound=ジズメ	Tn=BAA	Tw=	Tl=C4a	//
+支店	Read=シテン	Sound=シテン	Tn=KA\	Tw=	Tl=C2	//
+品	Read=シナ	Sound=シナ	Tn=JAA	Tw=JAA	Tl=C3	//
+時半	Read=ジハン	Sound=ジハン	Tn=CA\	Tw=	Tl=C1	//
+四半期	Read=シハンキ	Sound=シハンキ	Tn=KA\	Tw=	Tl=C1	//
+姉妹	Read=シマイ	Sound=シマイ	Tn=KA\	Tw=	Tl=C1	//
+締め	Read=ジメ	Sound=ジメ	Tn=KAA	Tw=	Tl=C3	//
+射	Read=シャ	Sound=シャ	Tn=HAA	Tw=	Tl=C3	//
+社	Read=シャ	Sound=シャ	Tn=HAA	Tw=	Tl=C3	//
+者	Read=シャ	Sound=シャ	Tn=HAA	Tw=	Tl=C3	//
+勺	Read=シャク	Sound=シャク	Tn=HAF	Tw=	Tl=C3	//
+尺	Read=シャク	Sound=シャク	Tn=HEF	Tw=	Tl=C3	//
+車種	Read=シャシュ	Sound=シャシュ	Tn=HA\	Tw=	Tl=C1	//
+車線	Read=シャセン	Sound=シャセン	Tn=HA\	Tw=	Tl=C2	//
+種	Read=シュ	Sound=シュ	Tn=HAA	Tw=	Tl=C3	//
+首	Read=シュ	Sound=シュ	Tn=HAA	Tw=	Tl=C3	//
+周	Read=シュウ	Sound=シュー	Tn=HAA	Tw=	Tl=C4	//
+州	Read=シュウ	Sound=シュー	Tn=HAA	Tw=	Tl=C3	//
+週	Read=シュウ	Sound=シュー	Tn=HAA	Tw=	Tl=C4	//
+集	Read=シュウ	Sound=シュー	Tn=HAA	Tw=	Tl=C4	//
+重	Read=ジュウ	Sound=ジュー	Tn=AAA	Tw=	Tl=C4	//
+重奏	Read=ジュウソウ	Sound=ジューソー	Tn=HAA	Tw=	Tl=C2	//
+週間	Read=シュウカン	Sound=シューカン	Tn=HAA	Tw=	Tl=C2	//
+周忌	Read=シュウキ	Sound=シューキ	Tn=HAA	Tw=	Tl=C1	//
+周年	Read=シュウネン	Sound=シューネン	Tn=HAA	Tw=	Tl=C1	//
+宿	Read=シュク	Sound=シュク	Tn=HAA	Tw=	Tl=C1	//
+出発	Read=シュッパツ	Sound=シュッパツ	Tn=AAA	Tw=	Tl=C2	//
+種目	Read=シュモク	Sound=シュモク	Tn=HAA	Tw=	Tl=C2	//Tl:C1(シ'ュモク)もあり
+種類	Read=シュルイ	Sound=シュルイ	Tn=HAA	Tw=	Tl=C1	//
+巡	Read=ジュン	Sound=ジュン	Tn=AAA	Tw=	Tl=C4	//
+女	Read=ジョ	Sound=ジョ	Tn=AAA	Tw=	Tl=C3	//
+所	Read=ショ	Sound=ショ	Tn=AAA	Tw=	Tl=C3	//
+勝	Read=ショウ	Sound=ショー	Tn=HAA	Tw=	Tl=C4	//
+升	Read=ショウ	Sound=ショー	Tn=HFC	Tw=	Tl=C3	//
+床	Read=ショウ	Sound=ショー	Tn=HAA	Tw=	Tl=C3	//
+章	Read=ショウ	Sound=ショー	Tn=HAA	Tw=	Tl=C3	//
+乗	Read=ジョウ	Sound=ジョー	Tn=AAA	Tw=	Tl=C4	//
+条	Read=ジョウ	Sound=ジョー	Tn=AAA	Tw=	Tl=C3	//
+畳	Read=ジョウ	Sound=ジョー	Tn=BAA	Tw=	Tl=C1	//
+錠	Read=ジョウ	Sound=ジョー	Tn=AAA	Tw=	Tl=C3	//
+帖	Read=ジョウ	Sound=ジョー	Tn=AAA	Tw=	Tl=C3	//
+省庁	Read=ショウチョウ	Sound=ショーチョー	Tn=KAA	Tw=	Tl=C1	//
+色	Read=ショク	Sound=ショク	Tn=HAQ	Tw=	Tl=C3	//
+食	Read=ショク	Sound=ショク	Tn=HAH	Tw=	Tl=C3	//
+シリーズ	Read=シリーズ	Sound=シリーズ	Tn=KA\	Tw=	Tl=C1	//Tl:C1(シ'リーズ)もあり
+シリング	Read=シリング	Sound=シリング	Tn=KA\	Tw=	Tl=C1	//
+審	Read=シン	Sound=シン	Tn=HAA	Tw=	Tl=C4	//
+進	Read=シン	Sound=シン	Tn=HAA	Tw=	Tl=C4	//
+陣	Read=ジン	Sound=ジン	Tn=AAA	Tw=	Tl=C4	//
+シンガポールドル	Read=シンガポールドル	Sound=シンガポールドル	Tn=KA\	Tw=	Tl=C1	//
+シンガポール・ドル	Read=シンガポールドル	Sound=シンガポールドル	Tn=KA\	Tw=	Tl=C1	//
+ＳＧＤ	Read=シンガポールドル	Sound=シンガポールドル	Tn=KA\	Tw=	Tl=C1	//
+Ｓ＄	Read=シンガポールドル	Sound=シンガポールドル	Tn=KA\	Tw=	Tl=C1	//
+信金	Read=シンキン	Sound=シンキン	Tn=KAA	Tw=	Tl=C2	//
+信組	Read=シンクミ	Sound=シンクミ	Tn=KAA	Tw=	Tl=C2	//
+進数	Read=シンスウ	Sound=シンスー	Tn=HAA	Tw=	Tl=C1	//
+親等	Read=シントウ	Sound=シントー	Tn=HAA	Tw=	Tl=C2	//
+人民元	Read=ジンミンゲン	Sound=ジンミンゲン	Tn=AA\	Tw=	Tl=C1	//
+スイスフラン	Read=スイスフラン	Sound=スイスフラン	Tn=KA\	Tw=	Tl=C1	//
+スイス・フラン	Read=スイスフラン	Sound=スイスフラン	Tn=KA\	Tw=	Tl=C1	//
+ＣＨＦ	Read=スイスフラン	Sound=スイスフラン	Tn=KA\	Tw=	Tl=C1	//
+ＳＦＲ	Read=スイスフラン	Sound=スイスフラン	Tn=KA\	Tw=	Tl=C1	//
+スウェーデンクローネ	Read=スウェーデンクローネ	Sound=スウェーデンクローネ	Tn=KA\	Tw=	Tl=C1	//
+ＳＥＫ	Read=スウェーデンクローネ	Sound=スウェーデンクローネ	Tn=KA\	Tw=	Tl=C1	//
+数	Read=スウ	Sound=スー	Tn=HAA	Tw=	Tl=C1	//
+スクレ	Read=スクレ	Sound=スクレ	Tn=KA\	Tw=	Tl=C1	//
+すじ	Read=スジ	Sound=スジ	Tn=JAA	Tw=JAA	Tl=C3	//
+筋	Read=スジ	Sound=スジ	Tn=JAA	Tw=JAA	Tl=C3	//
+ステージ	Read=ステージ	Sound=ステージ	Tn=KA\	Tw=	Tl=C1	//
+スペインペセタ	Read=スペインペセタ	Sound=スペインペセタ	Tn=KA\	Tw=	Tl=C1	//
+寸	Read=スン	Sound=スン	Tn=HEM	Tw=	Tl=C3	//
+世	Read=セイ	Sound=セイ	Tn=HAA	Tw=	Tl=C3	//
+世紀	Read=セイキ	Sound=セーキ	Tn=HAA	Tw=	Tl=C2	//
+製品	Read=セイヒン	Sound=セーヒン	Tn=KAA	Tw=	Tl=C2	//
+セーブ	Read=セーブ	Sound=セーブ	Tn=KA\	Tw=	Tl=C1	//
+隻	Read=セキ	Sound=セキ	Tn=HAQ	Tw=	Tl=C3	//
+席	Read=セキ	Sound=セキ	Tn=JAH	Tw=	Tl=C3	//
+石	Read=セキ	Sound=セキ	Tn=HAU	Tw=	Tl=C3	//
+;セクター	Read=セクター	Sound=セクター	Tn=KAA	Tw=	Tl=C1	//
+セクター	Read=セクター	Sound=セクター	Tn=KA\	Tw=	Tl=C1	//
+;世帯	Read=セタイ	Sound=セタイ	Tn=HAA	Tw=	Tl=C1	//
+世帯	Read=セタイ	Sound=セタイ	Tn=HA\	Tw=	Tl=C1	//
+世代	Read=セダイ	Sound=セダイ	Tn=KAA	Tw=	Tl=C1	//Tl:C2(平板型）もあり
+節	Read=セツ	Sound=セツ	Tn=HAH	Tw=	Tl=C3	//
+セット	Read=セット	Sound=セット	Tn=KA\	Tw=	Tl=C1	//
+セディ	Read=セディ	Sound=セディ	Tn=HA\	Tw=	Tl=C1	//
+戦	Read=セン	Sound=セン	Tn=HAA	Tw=	Tl=C4	//
+線	Read=セン	Sound=セン	Tn=HAA	Tw=	Tl=C3	//
+選	Read=セン	Sound=セン	Tn=HAA	Tw=	Tl=C4	//
+銭	Read=セン	Sound=セン	Tn=HAA	Tw=	Tl=C3	//
+ぜん	Read=ゼン	Sound=ゼン	Tn=AAA	Tw=	Tl=C3	//
+膳	Read=ゼン	Sound=ゼン	Tn=AAA	Tw=	Tl=C3	//
+選手	Read=センシュ	Sound=センシュ	Tn=KAA	Tw=	Tl=C1	//
+センチ	Read=センチ	Sound=センチ	Tn=HA\	Tw=	Tl=C1	//
+㌢	Read=センチ	Sound=センチ	Tn=HA\	Tw=	Tl=C1	//
+ｃｍ	Read=センチメートル	Sound=センチメートル	Tn=HA\	Tw=	Tl=C1	//
+センチメートル	Read=センチメートル	Sound=センチメートル	Tn=HA\	Tw=	Tl=C1	//
+糎	Read=センチメートル	Sound=センチメートル	Tn=HA\	Tw=	Tl=C1	//
+㎝	Read=センチメートル	Sound=センチメートル	Tn=HA\	Tw=	Tl=C1	//
+;セント	Read=セント	Sound=セント	Tn=HAA	Tw=	Tl=C1	//
+セント	Read=セント	Sound=セント	Tn=HA\	Tw=	Tl=C1	//
+￠	Read=セント	Sound=セント	Tn=HAA	Tw=	Tl=C1	//
+;セントユーロ	Read=セントユーロ	Sound=セントユーロ	Tn=HAA	Tw=	Tl=C1	//
+セントユーロ	Read=セントユーロ	Sound=セントユーロ	Tn=HA\	Tw=	Tl=C1	//
+そう	Read=ソウ	Sound=ソー	Tn=HAB	Tw=	Tl=C3	//
+相	Read=ソウ	Sound=ソー	Tn=HAB	Tw=	Tl=C3	//
+層	Read=ソウ	Sound=ソー	Tn=HAA	Tw=	Tl=C4	//
+艘	Read=ソウ	Sound=ソー	Tn=HAB	Tw=	Tl=C3	//
+ゾーン	Read=ゾーン	Sound=ゾーン	Tn=AA\	Tw=	Tl=C1	//
+足	Read=ソク	Sound=ソク	Tn=HEH	Tw=	Tl=C3	//
+速	Read=ソク	Sound=ソク	Tn=HAH	Tw=	Tl=C3	//
+ソム	Read=ソム	Sound=ソム	Tn=HA\	Tw=	Tl=C3	//
+ソル	Read=ソル	Sound=ソル	Tn=HA\	Tw=	Tl=C3	//
+そろい	Read=ソロイ	Sound=ソロイ	Tn=KQA	Tw=KQA	Tl=C1	//Tk:例外あり（ヒト'ソロイ・フタ'ソロイ）
+揃	Read=ソロイ	Sound=ソロイ	Tn=KQA	Tw=KQA	Tl=C1	//Tk:例外あり（ヒト'ソロイ・フタ'ソロイ）
+打	Read=ダ	Sound=ダ	Tn=AAA	Tw=	Tl=C3	//
+打数	Read=ダスウ	Sound=ダスー	Tn=AAA	Tw=	Tl=C2	//
+駄	Read=ダ	Sound=ダ	Tn=AAA	Tw=	Tl=C3	//
+ダース	Read=ダース	Sound=ダース	Tn=AA\	Tw=	Tl=C1	//
+ダーハム	Read=ダーハム	Sound=ダーハム	Tn=AAA	Tw=	Tl=C1	//
+体	Read=タイ	Sound=タイ	Tn=JAA	Tw=	Tl=C3	//
+代	Read=ダイ	Sound=ダイ	Tn=AAB	Tw=	Tl=C3	//
+台	Read=ダイ	Sound=ダイ	Tn=AAB	Tw=	Tl=C3	//
+大	Read=ダイ	Sound=ダイ	Tn=AAA	Tw=	Tl=C4	//
+題	Read=ダイ	Sound=ダイ	Tn=AAB	Tw=	Tl=C3	//
+大会	Read=タイカイ	Sound=タイカイ	Tn=KAA	Tw=	Tl=C2	//
+大学	Read=ダイガク	Sound=ダイガク	Tn=AAA	Tw=	Tl=C2	//
+大都市	Read=ダイトシ	Sound=ダイトシ	Tn=AAA	Tw=	Tl=C1	//
+タイトル	Read=タイトル	Sound=タイトル	Tn=KA\	Tw=	Tl=C1	//Tl:C2(平板型)もあり
+タイバーツ	Read=タイバーツ	Sound=タイバーツ	Tn=AA\	Tw=	Tl=C1	//
+ＴＨＢ	Read=タイバーツ	Sound=タイバーツ	Tn=AAA	Tw=	Tl=C1	//
+ＢＡＨＴ	Read=タイバーツ	Sound=タイバーツ	Tn=AA\	Tw=	Tl=C1	//
+タイプ	Read=タイプ	Sound=タイプ	Tn=KA\	Tw=	Tl=C1	//
+代目	Read=ダイメ	Sound=ダイメ	Tn=AAO	Tw=	Tl=C2	//
+ダイン	Read=ダイン	Sound=ダイン	Tn=AA\	Tw=	Tl=C1	//
+タカ	Read=タカ	Sound=タカ	Tn=JA\	Tw=	Tl=C3	//
+卓	Read=タク	Sound=タク	Tn=JAA	Tw=	Tl=C3	//
+打席	Read=ダセキ	Sound=ダセキ	Tn=AAA	Tw=	Tl=C2	//
+打点	Read=ダテン	Sound=ダテン	Tn=AAA	Tw=	Tl=C2	//
+束	Read=タバ	Sound=タバ	Tn=JAA	Tw=JAA	Tl=C3	//
+たば	Read=タバ	Sound=タバ	Tn=JAA	Tw=JAA	Tl=C3	//
+たび	Read=タビ	Sound=タビ	Tn=KAA	Tw=KAA	Tl=C3	//Ti:和語読み時例外あり？（三たび→ミタビ）
+玉	Read=タマ	Sound=タマ	Tn=JAA	Tw=JAA	Tl=C3	//
+ダラシ	Read=ダラシ	Sound=ダラシ	Tn=AA\	Tw=	Tl=C2	//
+タル	Read=タル	Sound=タル	Tn=JAA	Tw=	Tl=C3	//
+樽	Read=タル	Sound=タル	Tn=JAA	Tw=JAA	Tl=C3	//
+単	Read=タン	Sound=タン	Tn=HAA	Tw=	Tl=C3	//
+反	Read=タン	Sound=タン	Tn=HAA	Tw=	Tl=C3	//
+団	Read=ダン	Sound=ダン	Tn=AAB	Tw=	Tl=C3	//
+弾	Read=ダン	Sound=ダン	Tn=AAB	Tw=	Tl=C3	//
+段	Read=ダン	Sound=ダン	Tn=AAC	Tw=	Tl=C3	//段(段位)の場合CAV（四,七,九→ヨダン,シチダン,クダン）
+単位	Read=タンイ	Sound=タンイ	Tn=JAA	Tw=	Tl=C1	//
+段階	Read=ダンカイ	Sound=ダンカイ	Tn=AAA	Tw=	Tl=C2	//
+段式	Read=ダンシキ	Sound=ダンシキ	Tn=AAA	Tw=	Tl=C4a	//
+団体	Read=ダンタイ	Sound=ダンタイ	Tn=AAA	Tw=	Tl=C2	//
+地域	Read=チイキ	Sound=チーキ	Tn=JAA	Tw=	Tl=C1	//
+チーム	Read=チーム	Sound=チーム	Tn=JAA	Tw=	Tl=C1	//
+地銀	Read=チギン	Sound=チギン	Tn=KAA	Tw=	Tl=C2	//
+地区	Read=チク	Sound=チク	Tn=JAA	Tw=	Tl=C1	//
+地点	Read=チテン	Sound=チテン	Tn=KAA	Tw=	Tl=C1	//Tl:C2(平板型)もあり
+着	Read=チャク	Sound=チャク	Tn=HAF	Tw=	Tl=C3	//
+チャネル	Read=チャネル	Sound=チャネル	Tn=JA\	Tw=	Tl=C2	//
+チャンネル	Read=チャンネル	Sound=チャンネル	Tn=JA\	Tw=	Tl=C2	//Tl:C1(チ'ャンネル)もあり
+中国元	Read=チュウゴクゲン	Sound=チューゴクゲン	Tn=AA\	Tw=	Tl=C1	//
+ＣＮＹ	Read=チュウゴクゲン	Sound=チューゴクゲン	Tn=AA\	Tw=	Tl=C1	//
+丁	Read=チョウ	Sound=チョー	Tn=HAB	Tw=	Tl=C3	//
+町	Read=チョウ	Sound=チョー	Tn=HAB	Tw=	Tl=C3	//
+鳥	Read=チョウ	Sound=チョー	Tn=HAB	Tw=	Tl=C3	//
+町村	Read=チョウソン	Sound=チョーソン	Tn=HAA	Tw=	Tl=C2	//
+丁目	Read=チョウメ	Sound=チョーメ	Tn=HAO	Tw=	Tl=C2	//
+対	Read=ツイ	Sound=ツイ	Tn=HAW	Tw=	Tl=C3	//
+通	Read=ツウ	Sound=ツー	Tn=HAA	Tw=	Tl=C3	//
+つ折	Read=ツオリ	Sound=ツオリ	Tn=JAA	Tw=JAA	Tl=C2	//
+つ折り	Read=ツオリ	Sound=ツオリ	Tn=JAA	Tw=JAA	Tl=C2	//
+つがい	Read=ツガイ	Sound=ツガイ	Tn=JAA	Tw=JAA	Tl=C2	//
+つかみ	Read=ツカミ	Sound=ツカミ	Tn=JAA	Tw=JAA	Tl=C2	//
+掴み	Read=ツカミ	Sound=ツカミ	Tn=JAA	Tw=JAA	Tl=C2	//
+続き	Read=ツヅキ	Sound=ツヅキ	Tn=KAA	Tw=KAA	Tl=C2	//
+粒	Read=ツブ	Sound=ツブ	Tn=JAA	Tw=JAA	Tl=C3	//
+つぶ	Read=ツブ	Sound=ツブ	Tn=JAA	Tw=JAA	Tl=C3	//
+坪	Read=ツボ	Sound=ツボ	Tn=JAA	Tw=JAA	Tl=C3	//
+つまみ	Read=ツマミ	Sound=ツマミ	Tn=JAA	Tw=JAA	Tl=C2	//
+手	Read=テ	Sound=テ	Tn=HAA	Tw=	Tl=C3	//
+艇	Read=テイ	Sound=テイ	Tn=HAA	Tw=	Tl=C3	//
+Ｄ	Read=ディー	Sound=ディー	Tn=AA\	Tw=	Tl=C1	//
+ＤＯ	Read=ディーオー	Sound=ディーオー	Tn=AA\	Tw=	Tl=C1	//
+ＤＫ	Read=ディーケイ	Sound=ディーケー	Tn=AA\	Tw=	Tl=C1	//
+ディーケー	Read=ディーケー	Sound=ディーケー	Tn=AA\	Tw=	Tl=C1	//
+ｄｐｉ	Read=ディーピーアイ	Sound=ディーピーアイ	Tn=AA\	Tw=	Tl=C1	//
+ディナール	Read=ディナール	Sound=ディナール	Tn=AA\	Tw=	Tl=C1	//
+滴	Read=テキ	Sound=テキ	Tn=HAH	Tw=	Tl=C3	//
+ｄｂ	Read=デシベル	Sound=デシベル	Tn=AA\	Tw=	Tl=C1	//
+ｄＢ	Read=デシベル	Sound=デシベル	Tn=AA\	Tw=	Tl=C1	//
+デシベル	Read=デシベル	Sound=デシベル	Tn=AA\	Tw=	Tl=C1	//
+ｄｌ	Read=デシリットル	Sound=デシリットル	Tn=AA\	Tw=	Tl=C1	//
+デシリットル	Read=デシリットル	Sound=デシリットル	Tn=AA\	Tw=	Tl=C1	//
+デニール	Read=デニール	Sound=デニール	Tn=AA\	Tw=	Tl=C1	//
+テラ	Read=テラ	Sound=テラ	Tn=JA\	Tw=	Tl=C3	//
+店	Read=テン	Sound=テン	Tn=HAA	Tw=	Tl=C3	//
+転	Read=テン	Sound=テン	Tn=HAA	Tw=	Tl=C4	//
+点	Read=テン	Sound=テン	Tn=HAE	Tw=	Tl=C3	//
+テンゲ	Read=テンゲ	Sound=テンゲ	Tn=JA\	Tw=	Tl=C1	//
+店舗	Read=テンポ	Sound=テンポ	Tn=KAA	Tw=	Tl=C1	//
+デンマーククローナ	Read=デンマーククローナ	Sound=デンマーククローナ	Tn=AA\	Tw=	Tl=C1	//
+デンマーククローネ	Read=デンマーククローネ	Sound=デンマーククローネ	Tn=AA\	Tw=	Tl=C1	//
+デンマーク・クローネ	Read=デンマーククローネ	Sound=デンマーククローネ	Tn=AA\	Tw=	Tl=C1	//
+ＤＫＫ	Read=デンマーククローネ	Sound=デンマーククローネ	Tn=AA\	Tw=	Tl=C1	//
+斗	Read=ト	Sound=ト	Tn=HAA	Tw=	Tl=C3	//
+都	Read=ト	Sound=ト	Tn=HAA	Tw=	Tl=C3	//
+度	Read=ド	Sound=ド	Tn=AAA	Tw=	Tl=C3	//度(回数)の場合はAAY
+℃	Read=ドシー	Sound=ドシー	Tn=AA\	Tw=	Tl=C1	//
+;℃	Read=ド	Sound=ド	Tn=AAA	Tw=	Tl=C3	//度からコピー
+ドア	Read=ドア	Sound=ドア	Tn=QA\	Tw=	Tl=C1	//
+ドイツマルク	Read=ドイツマルク	Sound=ドイツマルク	Tn=AA\	Tw=	Tl=C1	//
+党	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C3	//
+棟	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C3	//
+盗	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C4	//
+灯	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C3	//
+等	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C4	//Tl:C1(ト'ー)もあり
+答	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C4	//
+頭	Read=トウ	Sound=トー	Tn=HAA	Tw=	Tl=C3	//
+等級	Read=トウキュウ	Sound=トーキュー	Tn=HAA	Tw=	Tl=C2	//
+道県	Read=ドウケン	Sound=ドーケン	Tn=AAA	Tw=	Tl=C1	//
+等席	Read=トウセキ	Sound=トーセキ	Tn=HAA	Tw=	Tl=C1	//
+等地	Read=トウチ	Sound=トーチ	Tn=HAA	Tw=	Tl=C1	//
+到着	Read=トウチャク	Sound=トーチャク	Tn=AAA	Tw=	Tl=C2	//
+道府県	Read=ドウフケン	Sound=ドーフケン	Tn=AAA	Tw=	Tl=C1	//
+等分	Read=トウブン	Sound=トーブン	Tn=HAA	Tw=	Tl=C4a	//
+盗塁	Read=トウルイ	Sound=トールイ	Tn=KAA	Tw=	Tl=C2	//
+とおり	Read=トオリ	Sound=トーリ	Tn=JAA	Tw=JAA	Tl=C4a	//
+通り	Read=トオリ	Sound=トーリ	Tn=JAA	Tw=JAA	Tl=C4a	//
+とき	Read=トキ	Sound=トキ	Tn=GBH	Tw=	Tl=C3	//泊から仮コピー
+得	Read=トク	Sound=トク	Tn=GBH	Tw=	Tl=C3	//泊から仮コピー
+得点	Read=トクテン	Sound=トクテン	Tn=KAA	Tw=	Tl=C2	//
+ところ	Read=トコロ	Sound=トコロ	Tn=JAA	Tw=JAA	Tl=C2	//
+都市	Read=トシ	Sound=トシ	Tn=KAA	Tw=	Tl=C1	//
+とせ	Read=トセ	Sound=トセ	Tn=KAA	Tw=KAA	Tl=C3	//Ti:和語読み時例外あり？（三とせ→ミトセ）
+ドット	Read=ドット	Sound=ドット	Tn=AAA	Tw=	Tl=C1	//
+都道府県	Read=トドウフケン	Sound=トドーフケン	Tn=KAA	Tw=	Tl=C1	//
+度目	Read=ドメ	Sound=ドメ	Tn=AAO	Tw=	Tl=C2	//
+トライ	Read=トライ	Sound=トライ	Tn=KA\	Tw=	Tl=C1	//
+ドラクマ	Read=ドラクマ	Sound=ドラクマ	Tn=AA\	Tw=	Tl=C1	//
+ドラム	Read=ドラム	Sound=ドラム	Tn=AA\	Tw=	Tl=C1	//
+ドル	Read=ドル	Sound=ドル	Tn=AAA	Tw=	Tl=C3	//
+;ドル	Read=ドル	Sound=ドル	Tn=AA]	Tw=	Tl=C3	//
+㌦	Read=ドル	Sound=ドル	Tn=AAA	Tw=	Tl=C3	//
+＄	Read=ドル	Sound=ドル	Tn=AAA	Tw=	Tl=C3	//
+トロイ	Read=トロイ	Sound=トロイ	Tn=KA\	Tw=	Tl=C1	//
+トロイオンス	Read=トロイオンス	Sound=トロイオンス	Tn=KA\	Tw=	Tl=C1	//
+ｔ	Read=トン	Sound=トン	Tn=JAA	Tw=	Tl=C3	//
+トン	Read=トン	Sound=トン	Tn=JAA	Tw=	Tl=C3	//
+噸	Read=トン	Sound=トン	Tn=JAA	Tw=	Tl=C3	//
+㌧	Read=トン	Sound=トン	Tn=JAA	Tw=	Tl=C3	//
+ドン	Read=ドン	Sound=ドン	Tn=AA\	Tw=	Tl=C1	//
+内	Read=ナイ	Sound=ナイ	Tn=AAA	Tw=	Tl=C3	//
+ナクファ	Read=ナクファ	Sound=ナクファ	Tn=AA\	Tw=	Tl=C1	//
+ナノ	Read=ナノ	Sound=ナノ	Tn=AA\	Tw=	Tl=C4	//
+男	Read=ナン	Sound=ナン	Tn=AAA	Tw=	Tl=C3	//
+握り	Read=ニギリ	Sound=ニギリ	Tn=AAA	Tw=AAA	Tl=C1	//Tk:例外あり（ヒト'ニギリ・フタ'ニギリ）
+;日	Read=ニチ	Sound=ニチ	Tn=PAR	Tw=	Tl=C3	//Ti:日（日付）の場合は1日→ツイタチ・2日以降は助数詞を「～カ」と読む
+日	Read=ニチ	Sound=ニチ	Tn=PA[	Tw=	Tl=C3	//Ti:日（日付）の場合は1日→ツイタチ・2日以降は助数詞を「～カ」と読む
+日間	Read=ニチカン	Sound=ニチカン	Tn=PAA	Tw=	Tl=C1	//1日間:イチニチカン・「ニ日間」以降は助数詞を「～カカン」と読む
+日目	Read=ニチメ	Sound=ニチメ	Tn=PAO	Tw=	Tl=C2	//1日:イチニチメ・「ニ日目」以降は助数詞を「～カカン」と読む
+ニュージーランドドル	Read=ニュージーランドドル	Sound=ニュージーランドドル	Tn=AA\	Tw=	Tl=C1	//
+ＮＺドル	Read=ニュージーランドドル	Sound=ニュージーランドドル	Tn=AA\	Tw=	Tl=C1	//
+ＮＺＤ	Read=ニュージーランドドル	Sound=ニュージーランドドル	Tn=AA\	Tw=	Tl=C1	//
+ＮＺ＄	Read=ニュージーランドドル	Sound=ニュージーランドドル	Tn=AA\	Tw=	Tl=C1	//
+ニュルタム	Read=ニュルタム	Sound=ニュルタム	Tn=AA\	Tw=	Tl=C1	//
+人	Read=ニン	Sound=ニン	Tn=CAK	Tw=CAZ	Tl=C3	//
+;人	Read=ニン	Sound=ニン	Tn=CAZ	Tw=CAZ	Tl=C3	//
+人組	Read=ニングミ	Sound=ニングミ	Tn=CAA	Tw=	Tl=C4a	//
+人月	Read=ニンゲツ	Sound=ニンゲツ	Tn=CAA	Tw=	Tl=C2	//
+人前	Read=ニンマエ	Sound=ニンマエ	Tn=CAA	Tw=	Tl=C4a	//
+年	Read=ネン	Sound=ネン	Tn=CAV	Tw=	Tl=C3	//
+年余	Read=ネンアマリ	Sound=ネンアマリ	Tn=CAA	Tw=	Tl=C1	//
+年時点	Read=ネンジテン	Sound=ネンジテン	Tn=CAA	Tw=	Tl=C1	//
+年間	Read=ネンカン	Sound=ネンカン	Tn=CAA	Tw=	Tl=C2	//
+年産	Read=ネンサン	Sound=ネンサン	Tn=CAA	Tw=	Tl=C4a	//
+年生	Read=ネンセイ	Sound=ネンセイ	Tn=BAA	Tw=	Tl=C1	//
+;年生	Read=ネンセー	Sound=ネンセー	Tn=BAA	Tw=	Tl=C1	//
+年代	Read=ネンダイ	Sound=ネンダイ	Tn=BAA	Tw=	Tl=C2	//
+年度	Read=ネンド	Sound=ネンド	Tn=CAA	Tw=	Tl=C1	//
+年版	Read=ネンバン	Sound=ネンバン	Tn=CAA	Tw=	Tl=C4a	//
+年分	Read=ネンブン	Sound=ネンブン	Tn=CAA	Tw=	Tl=C4a	//
+年余	Read=ネンヨ	Sound=ネンヨ	Tn=BAA	Tw=	Tl=C4a	//
+年来	Read=ネンライ	Sound=ネンライ	Tn=BAA	Tw=	Tl=C2	//
+農協	Read=ノウキョウ	Sound=ノーキョー	Tn=AAA	Tw=	Tl=C2	//
+ノット	Read=ノット	Sound=ノット	Tn=AA\	Tw=	Tl=C1	//
+ノルウェークローネ	Read=ノルウェークローネ	Sound=ノルウェークローネ	Tn=KA\	Tw=	Tl=C1	//
+ＮＯＫ	Read=ノルウェークローネ	Sound=ノルウェークローネ	Tn=KA\	Tw=	Tl=C1	//
+波	Read=ハ	Sound=ハ	Tn=LGA	Tw=	Tl=C3	//
+派	Read=ハ	Sound=ハ	Tn=LGA	Tw=	Tl=C3	//
+％	Read=パーセント	Sound=パーセント	Tn=KA\	Tw=	Tl=C1	//
+パーセント	Read=パーセント	Sound=パーセント	Tn=KA\	Tw=	Tl=C1	//
+㌫	Read=パーセント	Sound=パーセント	Tn=KA\	Tw=	Tl=C1	//
+パーミル	Read=パーミル	Sound=パーミル	Tn=KA\	Tw=	Tl=C1	//
+‰	Read=パーミル	Sound=パーミル	Tn=KA\	Tw=	Tl=C1	//
+バーツ	Read=バーツ	Sound=バーツ	Tn=AA\	Tw=	Tl=C1	//
+バーディー	Read=バーディー	Sound=バーディー	Tn=QA\	Tw=	Tl=C1	//
+バール	Read=バール	Sound=バール	Tn=AA\	Tw=	Tl=C1	//
+バーレル	Read=バーレル	Sound=バーレル	Tn=AA\	Tw=	Tl=C1	//
+敗	Read=ハイ	Sound=ハイ	Tn=GBA	Tw=	Tl=C4	//
+杯	Read=ハイ	Sound=ハイ	Tn=GCB	Tw=	Tl=C3	//
+倍	Read=バイ	Sound=バイ	Tn=AAA	Tw=	Tl=C4	//
+倍速	Read=バイソク	Sound=バイソク	Tn=AAA	Tw=	Tl=C2	//
+バイト	Read=バイト	Sound=バイト	Tn=AAA	Tw=	Tl=C1	//
+拍	Read=ハク	Sound=ハク	Tn=GBH	Tw=	Tl=C3	//
+泊	Read=ハク	Sound=ハク	Tn=GBH	Tw=	Tl=C3	//
+箱	Read=ハコ	Sound=ハコ	Tn=LHA	Tw=LIA	Tl=C3	//
+場所	Read=バショ	Sound=バショ	Tn=AAA	Tw=AAA	Tl=C4a	//Tk:例外あり（ヒト'バショ・フタ'バショ）
+柱	Read=ハシラ	Sound=ハシラ	Tn=KAA	Tw=KAA	Tl=C1	//Tk:例外あり（ヒト'ハシラ・フタ'ハシラ、イツ'ハシラ、ナナ'ハシラ）
+馬身	Read=バシン	Sound=バシン	Tn=AAA	Tw=	Tl=C1	//
+ｐａ	Read=パスカル	Sound=パスカル	Tn=KAA	Tw=	Tl=C1	//
+パスカル	Read=パスカル	Sound=パスカル	Tn=KAA	Tw=	Tl=C1	//
+鉢	Read=ハチ	Sound=ハチ	Tn=ORT	Tw=OJT	Tl=C3	//
+発	Read=ハツ	Sound=ハツ	Tn=GBH	Tw=	Tl=C3	//
+バック	Read=バック	Sound=バック	Tn=AA\	Tw=	Tl=C1	//
+バッグ	Read=バッグ	Sound=バッグ	Tn=AA\	Tw=	Tl=C1	//
+パック	Read=パック	Sound=パック	Tn=KA\	Tw=	Tl=C1	//
+パット	Read=パット	Sound=パット	Tn=KA\	Tw=	Tl=C1	//
+針	Read=ハリ	Sound=ハリ	Tn=KKA	Tw=KKA	Tl=C3	//
+張り	Read=ハリ	Sound=ハリ	Tn=KAA	Tw=KAA	Tl=C3	//
+馬力	Read=バリキ	Sound=バリキ	Tn=AAA	Tw=	Tl=C2	//
+バレル	Read=バレル	Sound=バレル	Tn=AA\	Tw=	Tl=C1	//
+版	Read=ハン	Sound=ハン	Tn=LGA	Tw=	Tl=C3	//
+犯	Read=ハン	Sound=ハン	Tn=LGA	Tw=	Tl=C3	//
+班	Read=ハン	Sound=ハン	Tn=LGA	Tw=	Tl=C3	//
+判	Read=バン	Sound=バン	Tn=AAA	Tw=	Tl=C3	//
+晩	Read=バン	Sound=バン	Tn=AAB	Tw=AAB	Tl=C3	//
+番	Read=バン	Sound=バン	Tn=AAC	Tw=	Tl=C3	//
+番線	Read=バンセン	Sound=バンセン	Tn=AAA	Tw=	Tl=C4a	//
+番地	Read=バンチ	Sound=バンチ	Tn=AAA	Tw=	Tl=C2	//
+番手	Read=バンテ	Sound=バンテ	Tn=AAA	Tw=	Tl=C2	//
+番目	Read=バンメ	Sound=バンメ	Tn=AAO	Tw=	Tl=C2	//
+番ホール	Read=バンホール	Sound=バンホール	Tn=AA\	Tw=	Tl=C1	//
+尾	Read=ビ	Sound=ビ	Tn=AAA	Tw=	Tl=C3	//
+Ｂ	Read=ビー	Sound=ビー	Tn=AA\	Tw=	Tl=C1	//
+ビート	Read=ビート	Sound=ビート	Tn=AA\	Tw=	Tl=C1	//
+ｐｐｍ	Read=ピーピーエム	Sound=ピーピーエム	Tn=KA\	Tw=	Tl=C1	//
+ピーピーエム	Read=ピーピーエム	Sound=ピーピーエム	Tn=KA\	Tw=	Tl=C1	//
+匹	Read=ヒキ	Sound=ヒキ	Tn=LHH	Tw=	Tl=C3	//
+びき	Read=ビキ	Sound=ビキ	Tn=AAH	Tw=	Tl=C3	//
+ぴき	Read=ピキ	Sound=ピキ	Tn=GAH	Tw=	Tl=C3	//
+ピコ	Read=ピコ	Sound=ピコ	Tn=KA\	Tw=	Tl=C3	//
+筆	Read=ピツ	Sound=ピツ	Tn=GBH	Tw=	Tl=C3	//
+ビット	Read=ビット	Sound=ビット	Tn=AA\	Tw=	Tl=C2	//
+俵	Read=ヒョウ	Sound=ヒョー	Tn=LHA	Tw=	Tl=C3	//
+票	Read=ヒョウ	Sound=ヒョー	Tn=LHA	Tw=	Tl=C3	//
+秒	Read=ビョウ	Sound=ビョー	Tn=AAA	Tw=	Tl=C3	//
+秒間	Read=ビョウカン	Sound=ビョーカン	Tn=AA\	Tw=	Tl=C1	//
+ピリオド	Read=ピリオド	Sound=ピリオド	Tn=KA\	Tw=	Tl=C1	//
+ビル	Read=ビル	Sound=ビル	Tn=AAA	Tw=	Tl=C3	//
+品	Read=ヒン	Sound=ヒン	Tn=GBA	Tw=	Tl=C3	//
+瓶	Read=ビン	Sound=ビン	Tn=AAB	Tw=AAB	Tl=C3	//
+便	Read=ビン	Sound=ビン	Tn=AAA	Tw=	Tl=C4	//
+品種	Read=ヒンシュ	Sound=ヒンシュ	Tn=KAA	Tw=	Tl=C2	//
+品目	Read=ヒンモク	Sound=ヒンモク	Tn=KAA	Tw=	Tl=C2	//
+府	Read=フ	Sound=フ	Tn=JNA	Tw=	Tl=C3	//
+部	Read=ブ	Sound=ブ	Tn=AAA	Tw=	Tl=C3	//
+分	Read=ブ	Sound=ブ	Tn=AAA	Tw=	Tl=C3	//
+ｆｅｅｔ	Read=フィート	Sound=フィート	Tn=KA\	Tw=	Tl=C1	//
+フィート	Read=フィート	Sound=フィート	Tn=KA\	Tw=	Tl=C1	//
+フォリント	Read=フォリント	Sound=フォリント	Tn=KA\	Tw=	Tl=C1	//
+フォン	Read=フォン	Sound=フォン	Tn=KA\	Tw=	Tl=C3	//
+幅	Read=フク	Sound=フク	Tn=KKA	Tw=KKA	Tl=C1	//
+袋	Read=フクロ	Sound=フクロ	Tn=KKA	Tw=KKA	Tl=C1	//Tk:例外あり（ヒト'フクロ、フタ'フクロ）
+府県	Read=フケン	Sound=フケン	Tn=KAA	Tw=	Tl=C1	//Tl:C1(フケ'ン)もあり
+房	Read=フサ	Sound=フサ	Tn=KAA	Tw=KAA	Tl=C3	//
+物件	Read=ブッケン	Sound=ブッケン	Tn=AAA	Tw=	Tl=C2	//
+ブッシェル	Read=ブッシェル	Sound=ブッシェル	Tn=AA\	Tw=	Tl=C1	//
+部門	Read=ブモン	Sound=ブモン	Tn=AAA	Tw=	Tl=C1	//
+プラ	Read=プラ	Sound=プラ	Tn=KA\	Tw=	Tl=C3	//
+フラン	Read=フラン	Sound=フラン	Tn=AA\	Tw=	Tl=C1	//
+フランスフラン	Read=フランスフラン	Sound=フランスフラン	Tn=AA\	Tw=	Tl=C1	//
+フランス・フラン	Read=フランスフラン	Sound=フランスフラン	Tn=AA\	Tw=	Tl=C1	//
+ＦＲＦ	Read=フランスフラン	Sound=フランスフラン	Tn=AA\	Tw=	Tl=C1	//
+ブランド	Read=ブランド	Sound=ブランド	Tn=AA\	Tw=	Tl=C2	//
+振り	Read=フリ	Sound=フリ	Tn=KAA	Tw=KAA	Tl=C3	//
+フロア	Read=フロア	Sound=フロア	Tn=AA\	Tw=	Tl=C1	//
+フローリン	Read=フローリン	Sound=フローリン	Tn=AA\	Tw=	Tl=C1	//
+ブロック	Read=ブロック	Sound=ブロック	Tn=AA\	Tw=	Tl=C1	//
+分	Read=フン	Sound=フン	Tn=LGA	Tw=	Tl=C3	//
+文	Read=ブン	Sound=ブン	Tn=AAW	Tw=	Tl=C3	//
+分割	Read=ブンカツ	Sound=ブンカツ	Tn=AAA	Tw=	Tl=C2	//
+分間	Read=フンカン	Sound=フンカン	Tn=LGA	Tw=	Tl=C1	//
+分木	Read=ブンギ	Sound=ブンギ	Tn=BAA	Tw=	Tl=C4a	//
+分団	Read=ブンダン	Sound=ブンダン	Tn=AAA	Tw=	Tl=C2	//
+プント	Read=プント	Sound=プント	Tn=AAA	Tw=	Tl=C1	//
+分ノ	Read=ブンノ	Sound=ブンノ	Tn=AAA	Tw=	Tl=C4a	//
+分の	Read=ブンノ	Sound=ブンノ	Tn=AAA	Tw=	Tl=C4a	//
+分目	Read=フンメ	Sound=フンメ	Tn=AAA	Tw=	Tl=C4a	//
+分野	Read=ブンヤ	Sound=ブンヤ	Tn=AAA	Tw=	Tl=C1	//
+ペア	Read=ペア	Sound=ペア	Tn=KA\	Tw=	Tl=C1	//
+米ドル	Read=ベイドル	Sound=ベードル	Tn=AAA	Tw=	Tl=C2	//
+平米	Read=ヘイベイ	Sound=ヘーベー	Tn=AA\	Tw=	Tl=C1	//Tl:C2(平板型）もあり
+平方キロ	Read=ヘイホウキロ	Sound=ヘイホーキロ	Tn=AA\	Tw=	Tl=C1	//
+平方キロメートル	Read=ヘイホウキロメートル	Sound=ヘイホーキロメートル	Tn=AA\	Tw=	Tl=C1	//
+平方センチメートル	Read=ヘイホウセンチメートル	Sound=ヘイホーセンチメートル	Tn=AA\	Tw=	Tl=C1	//
+平方メートル	Read=ヘイホウメートル	Sound=ヘイホーメートル	Tn=AA\	Tw=	Tl=C1	//
+㎡	Read=ヘイホウメートル	Sound=ヘイホーメートル	Tn=AA\	Tw=	Tl=C1	//
+ページ	Read=ページ	Sound=ページ	Tn=KA\	Tw=	Tl=C2	//
+㌻	Read=ページ	Sound=ページ	Tn=KA\	Tw=	Tl=C2	//
+頁	Read=ページ	Sound=ページ	Tn=KA\	Tw=	Tl=C2	//
+ｈａ	Read=ヘクタール	Sound=ヘクタール	Tn=AA\	Tw=	Tl=C1	//
+ヘクタール	Read=ヘクタール	Sound=ヘクタール	Tn=AA\	Tw=	Tl=C1	//
+㌶	Read=ヘクタール	Sound=ヘクタール	Tn=AA\	Tw=	Tl=C1	//
+ｈｐａ	Read=ヘクトパスカル	Sound=ヘクトパスカル	Tn=AA\	Tw=	Tl=C1	//
+ヘクトパスカル	Read=ヘクトパスカル	Sound=ヘクトパスカル	Tn=AA\	Tw=	Tl=C1	//
+ペセタ	Read=ペセタ	Sound=ペセタ	Tn=KA\	Tw=	Tl=C1	//
+ペソ	Read=ペソ	Sound=ペソ	Tn=KA\	Tw=	Tl=C1	//
+ペニー	Read=ペニー	Sound=ペニー	Tn=KA\	Tw=	Tl=C1	//
+ペニヒ	Read=ペニヒ	Sound=ペニヒ	Tn=KA\	Tw=	Tl=C1	//
+部屋	Read=ヘヤ	Sound=ヘヤ	Tn=KAA	Tw=KAA	Tl=C3	//
+ベルギーフラン	Read=ベルギーフラン	Sound=ベルギーフラン	Tn=AA\	Tw=	Tl=C1	//
+ｈｚ	Read=ヘルツ	Sound=ヘルツ	Tn=KA\	Tw=	Tl=C1	//
+ヘルツ	Read=ヘルツ	Sound=ヘルツ	Tn=KA\	Tw=	Tl=C1	//
+Ｈｚ	Read=ヘルツ	Sound=ヘルツ	Tn=KA\	Tw=	Tl=C1	//
+片	Read=ヘン	Sound=ヘン	Tn=JMA	Tw=	Tl=C3	//
+篇	Read=ヘン	Sound=ヘン	Tn=LGA	Tw=	Tl=C3	//
+編	Read=ヘン	Sound=ヘン	Tn=LGA	Tw=	Tl=C3	//
+辺	Read=ヘン	Sound=ヘン	Tn=JMA	Tw=	Tl=C3	//
+遍	Read=ヘン	Sound=ヘン	Tn=LHA	Tw=	Tl=C3	//
+;ぺん	Read=ペン	Sound=ペン	Tn=GBA	Tw=	Tl=C3	//
+ぺん	Read=ペン	Sound=ペン	Tn=GAA	Tw=	Tl=C3	//
+ペンス	Read=ペンス	Sound=ペンス	Tn=KA\	Tw=	Tl=C1	//
+ベクレル	Read=ベクレル	Sound=ベクレル	Tn=AA\	Tw=	Tl=C1	//
+ベトナムドン	Read=ベトナムドン	Sound=ベトナムドン	Tn=AA\	Tw=	Tl=C1	//
+ＶＮＤ	Read=ベトナムドン	Sound=ベトナムドン	Tn=AA\	Tw=	Tl=C1	//
+歩	Read=ホ	Sound=ホ	Tn=LGA	Tw=	Tl=C3	//
+ポイント	Read=ポイント	Sound=ポイント	Tn=KA\	Tw=	Tl=C2	//
+報	Read=ホウ	Sound=ホー	Tn=GBA	Tw=	Tl=C3	//
+方	Read=ホウ	Sound=ホー	Tn=NLA	Tw=	Tl=C1	//
+法	Read=ホウ	Sound=ホー	Tn=NLA	Tw=	Tl=C1	//
+法人	Read=ホウジン	Sound=ホージン	Tn=KA\	Tw=	Tl=C2	//
+ホール	Read=ホール	Sound=ホール	Tn=KA\	Tw=	Tl=C2	//
+ボギー	Read=ボギー	Sound=ボギー	Tn=QA\	Tw=	Tl=C1	//
+ホテル	Read=ホテル	Sound=ホテル	Tn=AA\	Tw=	Tl=C1	//
+ボリバル	Read=ボリバル	Sound=ボリバル	Tn=AA\	Tw=	Tl=C1	//
+ボリビアーノ	Read=ボリビアーノ	Sound=ボリビアーノ	Tn=AA\	Tw=	Tl=C1	//
+ｖ	Read=ボルト	Sound=ボルト	Tn=AA\	Tw=	Tl=C2	//
+ボルト	Read=ボルト	Sound=ボルト	Tn=AA\	Tw=	Tl=C2	//
+ホン	Read=ホン	Sound=ホン	Tn=KA\	Tw=	Tl=C3	//
+本	Read=ホン	Sound=ホン	Tn=LHB	Tw=	Tl=C3	//
+香港ドル	Read=ホンコンドル	Sound=ホンコンドル	Tn=KA\	Tw=	Tl=C1	//
+ＨＫＤ	Read=ホンコンドル	Sound=ホンコンドル	Tn=KA\	Tw=	Tl=C1	//
+ＨＫ＄	Read=ホンコンドル	Sound=ホンコンドル	Tn=KA\	Tw=	Tl=C1	//
+本立て	Read=ホンダテ	Sound=ホンダテ	Tn=LHA	Tw=	Tl=C4a	//
+ポンド	Read=ポンド	Sound=ポンド	Tn=KA\	Tw=	Tl=C1	//
+￡	Read=ポンド	Sound=ポンド	Tn=KA\	Tw=	Tl=C1	//
+本塁打	Read=ホンルイダ	Sound=ホンルイダ	Tn=KA\	Tw=	Tl=C1	//
+枚	Read=マイ	Sound=マイ	Tn=AAB	Tw=	Tl=C3	//
+枚肩	Read=マイガタ	Sound=マイガタ	Tn=AAB	Tw=	Tl=C1	//
+マイクロ	Read=マイクロ	Sound=マイクロ	Tn=AA\	Tw=	Tl=C2	//
+マイクロシーベルト	Read=マイクロシーベルト	Sound=マイクロシーベルト	Tn=AA\	Tw=	Tl=C1	//
+マイクロメートル	Read=マイクロメートル	Sound=マイクロメートル	Tn=AA\	Tw=	Tl=C1	//
+マイル	Read=マイル	Sound=マイル	Tn=AA\	Tw=	Tl=C1	//
+哩	Read=マイル	Sound=マイル	Tn=AA\	Tw=	Tl=C1	//
+幕	Read=マク	Sound=マク	Tn=AAA	Tw=AAA	Tl=C3	//
+マナト	Read=マナト	Sound=マナト	Tn=AA\	Tw=	Tl=C1	//
+マルカ	Read=マルカ	Sound=マルカ	Tn=AA\	Tw=	Tl=C1	//
+マルク	Read=マルク	Sound=マルク	Tn=AA\	Tw=	Tl=C1	//
+マレーシアドル	Read=マレーシアドル	Sound=マレーシアドル	Tn=AA\	Tw=	Tl=C1	//
+まわり	Read=マワリ	Sound=マワリ	Tn=AAA	Tw=AAA	Tl=C2	//
+回り	Read=マワリ	Sound=マワリ	Tn=AAA	Tw=AAA	Tl=C2	//
+ミクロン	Read=ミクロン	Sound=ミクロン	Tn=AA\	Tw=	Tl=C1	//
+ミリ	Read=ミリ	Sound=ミリ	Tn=AAA	Tw=	Tl=C3	//
+㍉	Read=ミリ	Sound=ミリ	Tn=AAA	Tw=	Tl=C3	//
+ｍＡ	Read=ミリアンペア	Sound=ミリアンペア	Tn=AA\	Tw=	Tl=C1	//
+ミリアンペア	Read=ミリアンペア	Sound=ミリアンペア	Tn=AA\	Tw=	Tl=C1	//
+ｍｇ	Read=ミリグラム	Sound=ミリグラム	Tn=AA\	Tw=	Tl=C1	//
+ミリグラム	Read=ミリグラム	Sound=ミリグラム	Tn=AA\	Tw=	Tl=C1	//
+㎎	Read=ミリグラム	Sound=ミリグラム	Tn=AA\	Tw=	Tl=C1	//
+ミリシーベルト	Read=ミリシーベルト	Sound=ミリシーベルト	Tn=AA\	Tw=	Tl=C1	//
+ミリバール	Read=ミリバール	Sound=ミリバール	Tn=AA\	Tw=	Tl=C1	//
+㍊	Read=ミリバール	Sound=ミリバール	Tn=AA\	Tw=	Tl=C1	//
+ｍＶ	Read=ミリボルト	Sound=ミリボルト	Tn=AA\	Tw=	Tl=C1	//
+ミリボルト	Read=ミリボルト	Sound=ミリボルト	Tn=AA\	Tw=	Tl=C1	//
+ｍｍ	Read=ミリメートル	Sound=ミリメートル	Tn=AA\	Tw=	Tl=C1	//
+ミリメートル	Read=ミリメートル	Sound=ミリメートル	Tn=AA\	Tw=	Tl=C1	//
+粍	Read=ミリメートル	Sound=ミリメートル	Tn=AA\	Tw=	Tl=C1	//
+㎜	Read=ミリメートル	Sound=ミリメートル	Tn=AA\	Tw=	Tl=C1	//
+ｍｌ	Read=ミリリットル	Sound=ミリリットル	Tn=AA\	Tw=	Tl=C1	//
+ミリリットル	Read=ミリリットル	Sound=ミリリットル	Tn=AA\	Tw=	Tl=C1	//
+ｍＷ	Read=ミリワット	Sound=ミリワット	Tn=AA\	Tw=	Tl=C1	//
+ミリワット	Read=ミリワット	Sound=ミリワット	Tn=AA\	Tw=	Tl=C1	//
+棟	Read=ムネ	Sound=ムネ	Tn=AAA	Tw=AAA	Tl=C3	//
+名	Read=メイ	Sound=メイ	Tn=AAA	Tw=	Tl=C3	//
+銘柄	Read=メイガラ	Sound=メイガラ	Tn=AAA	Tw=	Tl=C2	//
+メーカー	Read=メーカー	Sound=メーカー	Tn=AA\	Tw=	Tl=C1	//
+;ｍ	Read=メートル	Sound=メートル	Tn=AA\	Tw=	Tl=C2	//
+ｍ	Read=エム	Sound=エム	Tn=AA\	Tw=	Tl=C2	//
+メートル	Read=メートル	Sound=メートル	Tn=AAA	Tw=	Tl=C2	//
+㍍	Read=メートル	Sound=メートル	Tn=AA\	Tw=	Tl=C2	//
+米	Read=メートル	Sound=メートル	Tn=AA\	Tw=	Tl=C2	//
+;Ｍ	Read=メガ	Sound=メガ	Tn=AA\	Tw=	Tl=C1	//
+Ｍ	Read=エム	Sound=エム	Tn=AA\	Tw=	Tl=C1	// ;デフォルトではアクセント結合させない
+メガ	Read=メガ	Sound=メガ	Tn=AA\	Tw=	Tl=C1	//
+メガサイクル	Read=メガサイクル	Sound=メガサイクル	Tn=AA\	Tw=	Tl=C1	//
+メガトン	Read=メガトン	Sound=メガトン	Tn=AA\	Tw=	Tl=C1	//Tl:C1(メガ'トン)もあり
+Ｍｂ	Read=メガバイト	Sound=メガバイト	Tn=AA\	Tw=	Tl=C1	//
+Ｍバイト	Read=メガバイト	Sound=メガバイト	Tn=AA\	Tw=	Tl=C1	//
+メガバイト	Read=メガバイト	Sound=メガバイト	Tn=AA\	Tw=	Tl=C1	//
+メガビット	Read=メガビット	Sound=メガビット	Tn=AA\	Tw=	Tl=C1	//
+ｍｈｚ	Read=メガヘルツ	Sound=メガヘルツ	Tn=AA\	Tw=	Tl=C1	//
+Ｍヘルツ	Read=メガヘルツ	Sound=メガヘルツ	Tn=AA\	Tw=	Tl=C1	//
+メガヘルツ	Read=メガヘルツ	Sound=メガヘルツ	Tn=AA\	Tw=	Tl=C1	//
+メガワット	Read=メガワット	Sound=メガワット	Tn=AA\	Tw=	Tl=C1	//
+面	Read=メン	Sound=メン	Tn=AAD	Tw=	Tl=C3	//
+毛	Read=モウ	Sound=モー	Tn=AAA	Tw=	Tl=C3	//
+モード	Read=モード	Sound=モード	Tn=AA\	Tw=	Tl=C1	//
+目	Read=モク	Sound=モク	Tn=AAA	Tw=	Tl=C3	//
+文字	Read=モジ	Sound=モジ	Tn=AAA	Tw=	Tl=C3	//
+モデル	Read=モデル	Sound=モデル	Tn=AA\	Tw=	Tl=C1	//Tl:C2(平板型)もあり
+ｍｏｌ	Read=モル	Sound=モル	Tn=AA\	Tw=	Tl=C3	//
+モル	Read=モル	Sound=モル	Tn=AA\	Tw=	Tl=C3	//
+文	Read=モン	Sound=モン	Tn=AAA	Tw=	Tl=C3	//
+問	Read=モン	Sound=モン	Tn=AAB	Tw=	Tl=C3	//
+匁	Read=モンメ	Sound=モンメ	Tn=AAO	Tw=	Tl=C2	//
+夜	Read=ヤ	Sound=ヤ	Tn=AAA	Tw=	Tl=C3	//
+ヤード	Read=ヤード	Sound=ヤード	Tn=AA\	Tw=	Tl=C1	//
+ヤール	Read=ヤール	Sound=ヤール	Tn=AA\	Tw=	Tl=C1	//
+役	Read=ヤク	Sound=ヤク	Tn=AAA	Tw=AAA	Tl=C3	//
+山	Read=ヤマ	Sound=ヤマ	Tn=AAA	Tw=AAA	Tl=C3	//
+ユーザー	Read=ユーザー	Sound=ユーザー	Tn=AA\	Tw=	Tl=C1	//
+ユーロ	Read=ユーロ	Sound=ユーロ	Tn=AA\	Tw=	Tl=C1	//
+ＥＵＲ	Read=ユーロ	Sound=ユーロ	Tn=AA\	Tw=	Tl=C1	//
+夜	Read=ヨ	Sound=ヨ	Tn=AAA	Tw=AAA	Tl=C3	//Ti:和語読み時例外あり？（四夜→ヨヨ）
+様	Read=ヨウ	Sound=ヨー	Tn=AAA	Tw=	Tl=C4	//
+葉	Read=ヨウ	Sound=ヨー	Tn=AAA	Tw=	Tl=C3	//
+要素	Read=ヨウソ	Sound=ヨーソ	Tn=AAA	Tw=	Tl=C1	//
+ラーリ	Read=ラーリ	Sound=ラーリ	Tn=AA\	Tw=	Tl=C1	//
+ライヒスマルク	Read=ライヒスマルク	Sound=ライヒスマルク	Tn=AA\	Tw=	Tl=C1	//
+ライン	Read=ライン	Sound=ライン	Tn=AA\	Tw=	Tl=C1	//
+Ｒ	Read=ラウンド	Sound=ラウンド	Tn=AA\	Tw=	Tl=C2	//Tl:C1(ラ'ウンド)もあり
+ラウンド	Read=ラウンド	Sound=ラウンド	Tn=AA\	Tw=	Tl=C2	//Tl:C1(ラ'ウンド)もあり
+ランド	Read=ランド	Sound=ランド	Tn=AAA	Tw=	Tl=C1	//
+里	Read=リ	Sound=リ	Tn=CAA	Tw=	Tl=C3	//
+リアル	Read=リアル	Sound=リアル	Tn=AA\	Tw=	Tl=C1	//
+リエル	Read=リエル	Sound=リエル	Tn=AA\	Tw=	Tl=C1	//
+リッター	Read=リッター	Sound=リッター	Tn=AA\	Tw=	Tl=C2	//
+ｌ	Read=リットル	Sound=リットル	Tn=AA\	Tw=	Tl=C2	//
+Ｌ	Read=リッター	Sound=リッター	Tn=AA\	Tw=	Tl=C2	//
+リットル	Read=リットル	Sound=リットル	Tn=AA\	Tw=	Tl=C2	//
+㍑	Read=リットル	Sound=リットル	Tn=AA\	Tw=	Tl=C2	//
+立方センチメートル	Read=リッポウセンチメートル	Sound=リッポーセンチメートル	Tn=AA\	Tw=	Tl=C1	//
+立方メートル	Read=リッポウメートル	Sound=リッポーメートル	Tn=AA\	Tw=	Tl=C1	//
+流	Read=リュウ	Sound=リュー	Tn=AAA	Tw=	Tl=C4	//
+両	Read=リョウ	Sound=リョー	Tn=AAA	Tw=	Tl=C3	//
+リラ	Read=リラ	Sound=リラ	Tn=AA\	Tw=	Tl=C1	//
+厘	Read=リン	Sound=リン	Tn=AAA	Tw=	Tl=C3	//
+輪	Read=リン	Sound=リン	Tn=AAA	Tw=	Tl=C3	//
+リンギ	Read=リンギ	Sound=リンギ	Tn=AA\	Tw=	Tl=C1	//
+リンギット	Read=リンギット	Sound=リンギット	Tn=AA\	Tw=	Tl=C1	//
+塁	Read=ルイ	Sound=ルイ	Tn=AAA	Tw=	Tl=C3	//
+ルート	Read=ルート	Sound=ルート	Tn=AA\	Tw=	Tl=C1	//
+ルーブル	Read=ルーブル	Sound=ルーブル	Tn=AA\	Tw=	Tl=C1	//
+ルクス	Read=ルクス	Sound=ルクス	Tn=AA\	Tw=	Tl=C1	//
+ルピア	Read=ルピア	Sound=ルピア	Tn=AA\	Tw=	Tl=C1	//
+ルピー	Read=ルピー	Sound=ルピー	Tn=AA\	Tw=	Tl=C1	//
+例	Read=レイ	Sound=レイ	Tn=AAA	Tw=	Tl=C3	//
+レーン	Read=レーン	Sound=レーン	Tn=AA\	Tw=	Tl=C1	//
+レク	Read=レク	Sound=レク	Tn=AA\	Tw=	Tl=C3	//
+列	Read=レツ	Sound=レツ	Tn=AAA	Tw=	Tl=C3	//
+レフ	Read=レフ	Sound=レフ	Tn=AA\	Tw=	Tl=C3	//
+連	Read=レン	Sound=レン	Tn=AAA	Tw=	Tl=C3	//
+連休	Read=レンキュウ	Sound=レンキュー	Tn=AA\	Tw=	Tl=C2	//
+連戦	Read=レンセン	Sound=レンセン	Tn=AA\	Tw=	Tl=C2	//
+連勝	Read=レンショウ	Sound=レンショー	Tn=AA\	Tw=	Tl=C2	//
+連打	Read=レンダ	Sound=レンダ	Tn=AA\	Tw=	Tl=C1	//
+連覇	Read=レンパ	Sound=レンパ	Tn=AA\	Tw=	Tl=C1	//
+連敗	Read=レンパイ	Sound=レンパイ	Tn=AA\	Tw=	Tl=C2	//
+レンピラ	Read=レンピラ	Sound=レンピラ	Tn=AA\	Tw=	Tl=C1	//
+路線	Read=ロセン	Sound=ロセン	Tn=AA\	Tw=	Tl=C2	//
+労組	Read=ロウソ	Sound=ローソ	Tn=AA\	Tw=	Tl=C2	//
+羽	Read=ワ	Sound=ワ	Tn=IIA	Tw=	Tl=C3	//
+把	Read=ワ	Sound=ワ	Tn=KOA	Tw=	Tl=C3	//
+話	Read=ワ	Sound=ワ	Tn=AAA	Tw=	Tl=C3	//
+枠	Read=ワク	Sound=ワク	Tn=AAB	Tw=	Tl=C3	//
+分け	Read=ワケ	Sound=ワケ	Tn=AAA	Tw=	Tl=C4	//
+ｗ	Read=ワット	Sound=ワット	Tn=AA\	Tw=	Tl=C1	//
+Ｗ	Read=ワット	Sound=ワット	Tn=AA\	Tw=	Tl=C1	//
+ワット	Read=ワット	Sound=ワット	Tn=AA\	Tw=	Tl=C1	//
+㍗	Read=ワット	Sound=ワット	Tn=AA\	Tw=	Tl=C1	//
+割	Read=ワリ	Sound=ワリ	Tn=AAA	Tw=	Tl=C3	//
+割引	Read=ワリビキ	Sound=ワリビキ	Tn=AAA	Tw=	Tl=C4	//
+割増し	Read=ワリマシ	Sound=ワリマシ	Tn=AAA	Tw=	Tl=C4a	//
+椀	Read=ワン	Sound=ワン	Tn=AAA	Tw=AAA	Tl=C3	//
+
+;Last
+[接辞]
+半
+余
+未満
+以上
+以下
+前後
+程度
+制
+差
+」
+
+[END]

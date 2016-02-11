@@ -1,0 +1,83 @@
+yuusei 49
+2 1 -1 -1 ch u_
+2 1 -1 -1 fy u_
+2 1 -1 -1 hy u_
+2 0 -1 -1 i_ f_
+2 0 -1 -1 i_ fy
+2 0 -1 -1 i_ hy
+2 0 -1 -1 i_ py
+2 1 -1 -1 ky u_
+2 1 -1 -1 py u_
+2 1 -1 -1 t_ i_
+2 1 -1 -1 t_ u_
+2 1 -1 -1 ts i_
+2 1 -1 -1 ty u_
+3 1 -1 -1 ch i_ --
+3 1 -1 -1 ch i_ h_
+3 1 -1 -1 ch i_ s_
+3 1 -1 -1 ch i_ sh
+3 1 -1 -1 f_ i_ k_
+3 1 -1 -1 f_ u_ --
+3 1 -1 -1 f_ u_ h_
+3 1 -1 -1 hy i_ --
+3 1 -1 -1 hy i_ sh
+3 1 -1 -1 k_ i_ --
+3 1 -1 -1 k_ i_ h_
+3 1 -1 -1 k_ i_ ts
+3 1 -1 -1 k_ u_ f_
+3 1 -1 -1 k_ u_ p_
+3 1 -1 -1 p_ i_ ch
+3 1 -1 -1 p_ i_ k_
+3 1 -1 -1 p_ i_ s_
+3 1 -1 -1 p_ i_ t_
+3 1 -1 -1 p_ i_ ts
+3 1 -1 -1 p_ u_ --
+3 1 -1 -1 p_ u_ ch
+3 1 -1 -1 p_ u_ k_
+3 1 -1 -1 p_ u_ sh
+3 1 -1 -1 p_ u_ ts
+3 1 -1 -1 s_ u_ sh
+3 1 -1 -1 sh i_ sh
+3 1 -1 -1 sh u_ --
+3 1 -1 -1 sh u_ ch
+3 1 -1 -1 sh u_ hy
+3 1 -1 -1 sh u_ p_
+3 1 -1 -1 sh u_ s_
+3 1 -1 -1 sh u_ t_
+3 1 -1 -1 ts u_ --
+3 1 -1 -1 ts u_ f_
+3 1 -1 -1 ts u_ h_
+3 1 -1 -1 ts u_ hy
+musei 15
+3 1 -1 -1 ch i_ t_
+3 1 -1 -1 ch i_ ts
+3 1 -1 -1 f_ u_ ch
+3 1 -1 -1 f_ u_ ts
+3 1 -1 -1 hy i_ ch
+3 1 -1 -1 hy i_ p_
+3 1 -1 -1 hy i_ s_
+3 1 -1 -1 hy i_ t_
+3 1 -1 -1 k_ i_ ch
+3 1 -1 -1 k_ u_ ch
+3 1 -1 -1 s_ u_ ky
+3 1 -1 -1 s_ u_ ts
+3 1 -1 -1 sh i_ ch
+3 1 -1 -1 ts u_ ch
+3 1 -1 -1 ts u_ ky
+rule1 1
+rule2 1
+rule3_1 1
+rule3_2 1
+ruleex1_1 0
+ruleex1_2 1
+ruleex1_3 1
+ruleex2 1
+ex1_ai 0
+ex2 0
+AVLV
+a_ 88
+i_ 75
+u_ 65
+e_ 89
+o_ 88
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<modules>
+		<module name="aitalk" code="no" version="4.1.0" revision="no"/>
+		<module name="dbmake" code="no" version="4.1.0" revision="no"/>
+		<module name="dbs"    code="no" version="4.1.0" revision="no"/>
+	</modules>
+	<profile name="ゆうと （コンパクト）" voice="male"/>
+</database>
