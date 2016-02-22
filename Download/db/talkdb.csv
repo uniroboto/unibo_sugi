@@ -320,3 +320,8 @@ ReleaseCheck,index,category,sub_id,next_index,view_mode,ok_sensor,ng_sensor,moti
 ◯,309,system,0,-1,-1,none,none,homepos,smile,顔次週終わる,none,,,,,,
 ◯,309,system,0,-1,-1,none,none,homepos,smile,次週終わる,none,,,,,,
 ◯,309,system,0,-1,-1,none,none,homepos,smile,水10終わる,none,,,,,,
+,310,none,0,-1,-1,none,none,none,smile,グラスムーン,none,,,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,,
+,311,none,0,-1,-1,none,none,none,smile,hello there,none,,,Good Afternoon. Welcome to Hotel Almex. How may I help you?,Good Afternoon. Welcome to Hotel Almex. How may I help you?,,
+,312,none,0,-1,-1,none,none,none,smile,ハロー,none,,,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,,
+,313,none,0,-1,-1,none,none,none,smile,はろう,none,,,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,,
+,314,none,0,-1,-1,none,none,none,smile,good afternoon,none,,,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,Good Afternoon. Welcome to Hotel Almex. How may I help you? ,,
