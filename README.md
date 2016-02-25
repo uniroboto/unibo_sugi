@@ -18,7 +18,7 @@
  |- image
  |- sound
 |- db（uniboの会話定義ファイル格納）
- |- talkdb.csv
+ |- talked
 |- motion（モーションファイル定義）
  |- ※.txtのモーションファイル群
 |- personalData（パーソナルデータファイル格納予定）
